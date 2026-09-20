@@ -1,10 +1,10 @@
 # NTGame — Bilingual Game Guides / 新途游戏 · 双语游戏攻略
 
-[![Website](https://img.shields.io/badge/Website-ntgame.com-blue)](https://ntgame.com) [![Games](https://img.shields.io/badge/Games-208-brightgreen)](https://ntgame.com/guides/) [![Guide Pages](https://img.shields.io/badge/Guide%20Pages-4325-orange)](https://ntgame.com/sitemap.xml) [![Bilingual](https://img.shields.io/badge/Bilingual-%E4%B8%AD%E6%96%87%20%7C%20English-success)](https://ntgame.com) [![Updated](https://img.shields.io/badge/Updated-2026--09-lightgrey)](https://ntgame.com/index.xml) [![Interactive Index](https://img.shields.io/badge/Interactive%20Index-GitHub%20Pages-2ea44f)](https://ntgamecom.github.io/web/)
+[![Website](https://img.shields.io/badge/Website-ntgame.com-blue)](https://ntgame.com) [![Games](https://img.shields.io/badge/Games-208-brightgreen)](https://ntgame.com/guides/) [![Categories](https://img.shields.io/badge/Categories-15-blueviolet)](https://ntgame.com/guides/) [![Guide Pages](https://img.shields.io/badge/Guide%20Pages-4325-orange)](https://ntgame.com/sitemap.xml) [![Bilingual](https://img.shields.io/badge/Bilingual-%E4%B8%AD%E6%96%87%20%7C%20English-success)](https://ntgame.com) [![Updated](https://img.shields.io/badge/Updated-2026--09-lightgrey)](https://ntgame.com/index.xml) [![Interactive Index](https://img.shields.io/badge/Interactive%20Index-GitHub%20Pages-2ea44f)](https://ntgamecom.github.io/web/)
 
-**NTGame (新途游戏 / New Tutorial Games)** publishes free bilingual (Chinese / English) game guides for **208 games** — **4,325 in-depth guide pages** covering full walkthroughs, boss fights, builds, collectibles, mechanics, PC performance tuning and hardware recommendations. **No paywall, no ads.**
+**NTGame (新途游戏 / New Tutorial Games)** publishes free bilingual (Chinese / English) game guides for **208 games across 15 categories** — **4,325 in-depth guide pages** covering full walkthroughs, boss fights, builds, collectibles, mechanics, PC performance tuning and hardware recommendations. **No paywall, no ads.**
 
-**NTGame（新途游戏）** 提供 **208 款游戏**的免费双语攻略，累计 **4,325 篇**深度内容，涵盖全流程攻略、Boss 打法、流派构筑、全收集、机制详解、PC 性能优化与硬件推荐。**完全免费、无广告。**
+**NTGame（新途游戏）** 提供 **208 款游戏 · 15 个分类**的免费双语攻略，累计 **4,325 篇**深度内容，涵盖全流程攻略、Boss 打法、流派构筑、全收集、机制详解、PC 性能优化与硬件推荐。**完全免费、无广告。**
 
 | Website | All Guides | Rankings | News | RSS |
 |---|---|---|---|---|
@@ -72,7 +72,7 @@ NTGame 每日更新游戏圈资讯、发售前瞻与产业分析。
 | AMD BC-250 矿卡魔改跑 FSR 4：用 PS5 残次芯片打造 Linux 游戏主机 | [Read](https://ntgame.com/hardware/amd-bc250-fsr4-mining-linux/) |
 | 专业 AI 算力硬件专题：RTX PRO 5500 与国产沐曦曦云 C700 对标 H100 | [Read](https://ntgame.com/hardware/ai-gpu-rtx-pro-5500-domestic-c700/) |
 
-## Complete Game Index (208 Games) / 全部游戏索引（208 款）
+## Complete Game Index (208 Games / 15 Categories) / 全部游戏索引（208 款 · 15 类）
 
 ### Souls-like / 魂系动作 <sub>(21)</sub>
 
@@ -152,7 +152,7 @@ NTGame 每日更新游戏圈资讯、发售前瞻与产业分析。
 | The Witcher IV / 巫师4 | 5 | [Guide](https://ntgame.com/witcher4/) |
 | 天国：救世主3 | 4 | [Guide](https://ntgame.com/kingdom-come-deliverance-3/) |
 
-### Character Action / 硬核动作 <sub>(6)</sub>
+### Character Action / 动作清版 <sub>(9)</sub>
 
 | Game / 游戏 | Pages / 页数 | Guide / 攻略 |
 |---|---:|---|
@@ -162,11 +162,6 @@ NTGame 每日更新游戏圈资讯、发售前瞻与产业分析。
 | DOOM: The Dark Ages / 毁灭战士：黑暗时代 | 21 | [Guide](https://ntgame.com/doomdarkages/) |
 | Dust Front / 尘埃前线 | 21 | [Guide](https://ntgame.com/dustfront/) |
 | Nordic Ashes / 北欧灰烬 | 21 | [Guide](https://ntgame.com/nordicashes/) |
-
-### Action & Adventure / 动作冒险 <sub>(3)</sub>
-
-| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
-|---|---:|---|
 | Onimusha: Way of the Sword / 鬼武者：剑之道 | 21 | [Guide](https://ntgame.com/onimusha/) |
 | 湮灭之潮（Tides of Annihilation） | 20 | [Guide](https://ntgame.com/tides-of-annihilation/) |
 | 致病本源 / Pathogenic | 20 | [Guide](https://ntgame.com/pathogenic/) |
@@ -196,73 +191,21 @@ NTGame 每日更新游戏圈资讯、发售前瞻与产业分析。
 | The Legend of Zelda: Tears of the Kingdom / 塞尔达传说王国之泪 | 21 | [Guide](https://ntgame.com/zelda/) |
 | 无尽的拉格朗日 | 21 | [Guide](https://ntgame.com/lagrange/) |
 
-### Open World / 开放世界 <sub>(8)</sub>
+### Open World / 开放世界 <sub>(9)</sub>
 
 | Game / 游戏 | Pages / 页数 | Guide / 攻略 |
 |---|---:|---|
 | Elden Ring Nightreign / 艾尔登法环 黑夜君临 | 7 | [Guide](https://ntgame.com/eldenringnightreign/) |
 | Grand Theft Auto V / 侠盗猎车手5 | 21 | [Guide](https://ntgame.com/gta5/) |
 | Grand Theft Auto VI / 侠盗猎车手6 | 26 | [Guide](https://ntgame.com/gta6/) |
+| GTA 6 泄露全复盘专题 | 1 | [Guide](https://ntgame.com/gta6-leak/) |
 | Red Dead Redemption 2 / 荒野大镖客2 | 21 | [Guide](https://ntgame.com/rdr2/) |
 | Rust / 腐蚀 | 21 | [Guide](https://ntgame.com/rust/) |
 | South of Midnight / 南方夜幕之下 | 21 | [Guide](https://ntgame.com/southofmidnight/) |
 | Subnautica 2 / 深海迷航2 | 7 | [Guide](https://ntgame.com/subnautica2/) |
 | Where Winds Meet / 风来之身 | 21 | [Guide](https://ntgame.com/wherewindsmeet/) |
 
-### FPS & Shooter / 射击 <sub>(16)</sub>
-
-| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
-|---|---:|---|
-| 007 First Light | 21 | [Guide](https://ntgame.com/007firstlight/) |
-| Apex Legends / apex英雄 | 21 | [Guide](https://ntgame.com/apexlegends/) |
-| Armored Core 7 / 装甲核心7 | 4 | [Guide](https://ntgame.com/armored-core-7/) |
-| Borderlands 4 / 无主之地4 | 1 | [Guide](https://ntgame.com/borderlands4/) |
-| Call of Duty: Black Ops 6 / 使命召唤：黑色行动6 | 21 | [Guide](https://ntgame.com/bo6/) |
-| Counter-Strike 2 / 反恐精英2 | 21 | [Guide](https://ntgame.com/counterstrike2/) |
-| Escape from Tarkov / 逃离塔科夫 | 21 | [Guide](https://ntgame.com/escape-from-tarkov/) |
-| Fortnite / 堡垒之夜 | 21 | [Guide](https://ntgame.com/fortnite/) |
-| Overwatch 2 / 守望先锋2 | 21 | [Guide](https://ntgame.com/overwatch2/) |
-| PUBG: Battlegrounds / 绝地求生 | 21 | [Guide](https://ntgame.com/pubg/) |
-| Team Fortress 2 / 军团要塞2 | 21 | [Guide](https://ntgame.com/teamfortress2/) |
-| VALORANT / 无畏契约 | 21 | [Guide](https://ntgame.com/valorant/) |
-| WARDOGS / 战狗 | 23 | [Guide](https://ntgame.com/wardogs/) |
-| 东方红魔乡 新典 | 22 | [Guide](https://ntgame.com/touhou-koumakyou/) |
-| 使命召唤6 | 21 | [Guide](https://ntgame.com/cod6/) |
-| 彩虹六号：攻势 | 21 | [Guide](https://ntgame.com/rainbow-six-offensive/) |
-
-### FPS / 第一人称射击 <sub>(1)</sub>
-
-| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
-|---|---:|---|
-| Halo: Campaign Evolved / 光环：进化战役 | 20 | [Guide](https://ntgame.com/halo-campaign-evolved/) |
-
-### Co-op & Sandbox / 合作与沙盒 <sub>(15)</sub>
-
-| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
-|---|---:|---|
-| Bookshop Simulator / 书店模拟器 — 完整游戏 | 23 | [Guide](https://ntgame.com/bookshop-sim/) |
-| Go-Go Town! / 前进城镇 | 25 | [Guide](https://ntgame.com/go-go-town/) |
-| Helldivers 2 / 绝地潜兵2 | 21 | [Guide](https://ntgame.com/helldivers2/) |
-| How to Fish / 渔力全开 | 20 | [Guide](https://ntgame.com/how-to-fish/) |
-| It Takes Two / 双人成行 | 21 | [Guide](https://ntgame.com/ittakestwo/) |
-| Lethal Company / 致命公司 | 21 | [Guide](https://ntgame.com/lethalcompany/) |
-| Minecraft / 我的世界 | 21 | [Guide](https://ntgame.com/minecraft/) |
-| Palworld / 幻兽帕鲁 | 26 | [Guide](https://ntgame.com/palworld/) |
-| Roblox / 罗布乐思 | 22 | [Guide](https://ntgame.com/roblox/) |
-| Satisfactory / 幸福工厂 | 21 | [Guide](https://ntgame.com/satisfactory/) |
-| Splatoon Raiders / 斯普拉遁突击 | 21 | [Guide](https://ntgame.com/splatoon-raiders/) |
-| Split Fiction / 双影奇境 | 20 | [Guide](https://ntgame.com/splitfiction/) |
-| Terraria / 泰拉瑞亚 | 21 | [Guide](https://ntgame.com/terraria/) |
-| Valheim / 英灵神殿 | 21 | [Guide](https://ntgame.com/valheim/) |
-| Warhammer 40,000: Space Marine 2 / 星际战士2 | 21 | [Guide](https://ntgame.com/spacemarine2/) |
-
-### Survival & Crafting / 生存建造 <sub>(1)</sub>
-
-| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
-|---|---:|---|
-| 禁闭求生 2（Grounded 2） | 20 | [Guide](https://ntgame.com/grounded2/) |
-
-### Strategy & 4X / 策略与经营 <sub>(19)</sub>
+### Strategy & 4X / 策略游戏 <sub>(20)</sub>
 
 | Game / 游戏 | Pages / 页数 | Guide / 攻略 |
 |---|---:|---|
@@ -284,36 +227,33 @@ NTGame 每日更新游戏圈资讯、发售前瞻与产业分析。
 | Warcraft III: Reforged / 魔兽争霸3：重铸版 | 21 | [Guide](https://ntgame.com/warcraft3-reforged/) |
 | XCOM 2 / 幽浮2 | 21 | [Guide](https://ntgame.com/xcom2/) |
 | 后世更序（Afterworld） | 2 | [Guide](https://ntgame.com/afterworld/) |
+| 幻世录：重制版 | 22 | [Guide](https://ntgame.com/huan-shi-lu/) |
 | 幻境传说 | 3 | [Guide](https://ntgame.com/phantom-realms/) |
 
-### Tactical RPG / 战棋 <sub>(1)</sub>
+### FPS & Shooter / 射击游戏 <sub>(18)</sub>
 
 | Game / 游戏 | Pages / 页数 | Guide / 攻略 |
 |---|---:|---|
-| 幻世录：重制版 | 22 | [Guide](https://ntgame.com/huan-shi-lu/) |
+| 007 First Light | 21 | [Guide](https://ntgame.com/007firstlight/) |
+| Ace Combat 8: Hope Wings / 皇牌空战8：希孚之翼 | 21 | [Guide](https://ntgame.com/ace-combat-8-hope-wings/) |
+| Apex Legends / apex英雄 | 21 | [Guide](https://ntgame.com/apexlegends/) |
+| Armored Core 7 / 装甲核心7 | 4 | [Guide](https://ntgame.com/armored-core-7/) |
+| Borderlands 4 / 无主之地4 | 1 | [Guide](https://ntgame.com/borderlands4/) |
+| Call of Duty: Black Ops 6 / 使命召唤：黑色行动6 | 21 | [Guide](https://ntgame.com/bo6/) |
+| Counter-Strike 2 / 反恐精英2 | 21 | [Guide](https://ntgame.com/counterstrike2/) |
+| Escape from Tarkov / 逃离塔科夫 | 21 | [Guide](https://ntgame.com/escape-from-tarkov/) |
+| Fortnite / 堡垒之夜 | 21 | [Guide](https://ntgame.com/fortnite/) |
+| Halo: Campaign Evolved / 光环：进化战役 | 20 | [Guide](https://ntgame.com/halo-campaign-evolved/) |
+| Overwatch 2 / 守望先锋2 | 21 | [Guide](https://ntgame.com/overwatch2/) |
+| PUBG: Battlegrounds / 绝地求生 | 21 | [Guide](https://ntgame.com/pubg/) |
+| Team Fortress 2 / 军团要塞2 | 21 | [Guide](https://ntgame.com/teamfortress2/) |
+| VALORANT / 无畏契约 | 21 | [Guide](https://ntgame.com/valorant/) |
+| WARDOGS / 战狗 | 23 | [Guide](https://ntgame.com/wardogs/) |
+| 东方红魔乡 新典 | 22 | [Guide](https://ntgame.com/touhou-koumakyou/) |
+| 使命召唤6 | 21 | [Guide](https://ntgame.com/cod6/) |
+| 彩虹六号：攻势 | 21 | [Guide](https://ntgame.com/rainbow-six-offensive/) |
 
-### MMORPG / 网络游戏 <sub>(1)</sub>
-
-| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
-|---|---:|---|
-| 魔兽世界：无限 | 21 | [Guide](https://ntgame.com/wow-eternal/) |
-
-### Roguelike / 肉鸽 <sub>(10)</sub>
-
-| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
-|---|---:|---|
-| Balatro / 小丑牌 | 21 | [Guide](https://ntgame.com/balatro/) |
-| Dead Cells / 死亡细胞 | 21 | [Guide](https://ntgame.com/deadcells/) |
-| Hades / 哈迪斯 | 21 | [Guide](https://ntgame.com/hades/) |
-| Hades II / 哈迪斯2 | 21 | [Guide](https://ntgame.com/hades2/) |
-| Mistfall Hunter / 雾落猎手 | 19 | [Guide](https://ntgame.com/mistfall-hunter/) |
-| Risk of Rain 2 / 雨中冒险2 | 21 | [Guide](https://ntgame.com/riskofrain2/) |
-| Slay the Spire / 杀戮尖塔 | 21 | [Guide](https://ntgame.com/sts/) |
-| Slay the Spire 2 / 杀戮尖塔2 | 20 | [Guide](https://ntgame.com/sts2/) |
-| The Binding of Isaac / 以撒的结合 | 31 | [Guide](https://ntgame.com/isaac/) |
-| Vampire Survivors / 吸血鬼幸存者 | 21 | [Guide](https://ntgame.com/vampiresurvivors/) |
-
-### Horror / 恐怖 <sub>(11)</sub>
+### Horror / 恐怖游戏 <sub>(11)</sub>
 
 | Game / 游戏 | Pages / 页数 | Guide / 攻略 |
 |---|---:|---|
@@ -329,27 +269,7 @@ NTGame 每日更新游戏圈资讯、发售前瞻与产业分析。
 | Shift at Midnight / 午夜换班 | 1 | [Guide](https://ntgame.com/shift-at-midnight/) |
 | Silent Hill 2 Remake / 寂静岭2 重制版 | 24 | [Guide](https://ntgame.com/silent-hill-2-remake/) |
 
-### Platformer / 平台跳跃 <sub>(6)</sub>
-
-| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
-|---|---:|---|
-| Celeste / 蔚蓝 | 21 | [Guide](https://ntgame.com/celeste/) |
-| Cuphead / 茶杯头 | 21 | [Guide](https://ntgame.com/cuphead/) |
-| Ori and the Will of the Wisps / 精灵与萤火意志 | 21 | [Guide](https://ntgame.com/ori2/) |
-| Rhythm Heaven / 节奏天国 | 22 | [Guide](https://ntgame.com/rhythm-heaven/) |
-| Super Mario Bros. Wonder / 超级马力欧兄弟惊奇 | 20 | [Guide](https://ntgame.com/mariowonder/) |
-| Super Mario Odyssey / 超级马力欧奥德赛 | 20 | [Guide](https://ntgame.com/mario-odyssey/) |
-
-### Fighting / 格斗 <sub>(4)</sub>
-
-| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
-|---|---:|---|
-| Avatar Legends / 降世神通格斗 | 23 | [Guide](https://ntgame.com/avatar-legends/) |
-| Mortal Kombat 1 / 真人快打1 | 21 | [Guide](https://ntgame.com/mortalkombat1/) |
-| Street Fighter 6 / 街霸6 | 21 | [Guide](https://ntgame.com/sf6/) |
-| Tekken 8 / 铁拳8 | 21 | [Guide](https://ntgame.com/tekken8/) |
-
-### Racing & Sports / 竞速与体育 <sub>(10)</sub>
+### Racing & Sports / 竞速体育 <sub>(10)</sub>
 
 | Game / 游戏 | Pages / 页数 | Guide / 攻略 |
 |---|---:|---|
@@ -364,13 +284,63 @@ NTGame 每日更新游戏圈资讯、发售前瞻与产业分析。
 | NBA 2K25 | 21 | [Guide](https://ntgame.com/nba2k25/) |
 | UFL 足球 | 20 | [Guide](https://ntgame.com/ufl/) |
 
-### Flight / 空战 <sub>(1)</sub>
+### Roguelike / 肉鸽游戏 <sub>(10)</sub>
 
 | Game / 游戏 | Pages / 页数 | Guide / 攻略 |
 |---|---:|---|
-| Ace Combat 8: Hope Wings / 皇牌空战8：希孚之翼 | 21 | [Guide](https://ntgame.com/ace-combat-8-hope-wings/) |
+| Balatro / 小丑牌 | 21 | [Guide](https://ntgame.com/balatro/) |
+| Dead Cells / 死亡细胞 | 21 | [Guide](https://ntgame.com/deadcells/) |
+| Hades / 哈迪斯 | 21 | [Guide](https://ntgame.com/hades/) |
+| Hades II / 哈迪斯2 | 21 | [Guide](https://ntgame.com/hades2/) |
+| Mistfall Hunter / 雾落猎手 | 19 | [Guide](https://ntgame.com/mistfall-hunter/) |
+| Risk of Rain 2 / 雨中冒险2 | 21 | [Guide](https://ntgame.com/riskofrain2/) |
+| Slay the Spire / 杀戮尖塔 | 21 | [Guide](https://ntgame.com/sts/) |
+| Slay the Spire 2 / 杀戮尖塔2 | 20 | [Guide](https://ntgame.com/sts2/) |
+| The Binding of Isaac / 以撒的结合 | 31 | [Guide](https://ntgame.com/isaac/) |
+| Vampire Survivors / 吸血鬼幸存者 | 21 | [Guide](https://ntgame.com/vampiresurvivors/) |
 
-### Mobile & Gacha / 手游与抽卡 <sub>(6)</sub>
+### Platformer / 平台跳跃 <sub>(6)</sub>
+
+| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
+|---|---:|---|
+| Celeste / 蔚蓝 | 21 | [Guide](https://ntgame.com/celeste/) |
+| Cuphead / 茶杯头 | 21 | [Guide](https://ntgame.com/cuphead/) |
+| Ori and the Will of the Wisps / 精灵与萤火意志 | 21 | [Guide](https://ntgame.com/ori2/) |
+| Rhythm Heaven / 节奏天国 | 22 | [Guide](https://ntgame.com/rhythm-heaven/) |
+| Super Mario Bros. Wonder / 超级马力欧兄弟惊奇 | 20 | [Guide](https://ntgame.com/mariowonder/) |
+| Super Mario Odyssey / 超级马力欧奥德赛 | 20 | [Guide](https://ntgame.com/mario-odyssey/) |
+
+### Co-op / 合作游戏 <sub>(16)</sub>
+
+| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
+|---|---:|---|
+| Bookshop Simulator / 书店模拟器 — 完整游戏 | 23 | [Guide](https://ntgame.com/bookshop-sim/) |
+| Go-Go Town! / 前进城镇 | 25 | [Guide](https://ntgame.com/go-go-town/) |
+| Helldivers 2 / 绝地潜兵2 | 21 | [Guide](https://ntgame.com/helldivers2/) |
+| How to Fish / 渔力全开 | 20 | [Guide](https://ntgame.com/how-to-fish/) |
+| It Takes Two / 双人成行 | 21 | [Guide](https://ntgame.com/ittakestwo/) |
+| Lethal Company / 致命公司 | 21 | [Guide](https://ntgame.com/lethalcompany/) |
+| Minecraft / 我的世界 | 21 | [Guide](https://ntgame.com/minecraft/) |
+| Palworld / 幻兽帕鲁 | 26 | [Guide](https://ntgame.com/palworld/) |
+| Roblox / 罗布乐思 | 22 | [Guide](https://ntgame.com/roblox/) |
+| Satisfactory / 幸福工厂 | 21 | [Guide](https://ntgame.com/satisfactory/) |
+| Splatoon Raiders / 斯普拉遁突击 | 21 | [Guide](https://ntgame.com/splatoon-raiders/) |
+| Split Fiction / 双影奇境 | 20 | [Guide](https://ntgame.com/splitfiction/) |
+| Terraria / 泰拉瑞亚 | 21 | [Guide](https://ntgame.com/terraria/) |
+| Valheim / 英灵神殿 | 21 | [Guide](https://ntgame.com/valheim/) |
+| Warhammer 40,000: Space Marine 2 / 星际战士2 | 21 | [Guide](https://ntgame.com/spacemarine2/) |
+| 禁闭求生 2（Grounded 2） | 20 | [Guide](https://ntgame.com/grounded2/) |
+
+### Fighting / 格斗游戏 <sub>(4)</sub>
+
+| Game / 游戏 | Pages / 页数 | Guide / 攻略 |
+|---|---:|---|
+| Avatar Legends / 降世神通格斗 | 23 | [Guide](https://ntgame.com/avatar-legends/) |
+| Mortal Kombat 1 / 真人快打1 | 21 | [Guide](https://ntgame.com/mortalkombat1/) |
+| Street Fighter 6 / 街霸6 | 21 | [Guide](https://ntgame.com/sf6/) |
+| Tekken 8 / 铁拳8 | 21 | [Guide](https://ntgame.com/tekken8/) |
+
+### Mobile & Gacha / 手机游戏 <sub>(6)</sub>
 
 | Game / 游戏 | Pages / 页数 | Guide / 攻略 |
 |---|---:|---|
@@ -381,11 +351,11 @@ NTGame 每日更新游戏圈资讯、发售前瞻与产业分析。
 | Zenless Zone Zero / 绝区零 | 21 | [Guide](https://ntgame.com/zenlesszonezero/) |
 | 主宰世界 | 21 | [Guide](https://ntgame.com/zzsj/) |
 
-### Special / 专题 <sub>(1)</sub>
+### MMORPG / 大型多人在线角色扮演 <sub>(1)</sub>
 
 | Game / 游戏 | Pages / 页数 | Guide / 攻略 |
 |---|---:|---|
-| GTA 6 泄露全复盘专题 | 1 | [Guide](https://ntgame.com/gta6-leak/) |
+| 魔兽世界：无限 | 21 | [Guide](https://ntgame.com/wow-eternal/) |
 
 ## Features / 特色
 
@@ -399,7 +369,7 @@ NTGame 每日更新游戏圈资讯、发售前瞻与产业分析。
 
 ## Site Structure / 站点结构
 
-- [All guides index / 全部攻略索引](https://ntgame.com/guides/) — browse all 208 games by genre
+- [All guides index / 全部攻略索引](https://ntgame.com/guides/) — browse all 208 games across 15 categories / 按 15 个分类浏览全部 208 款游戏
 - [Rankings / 排行榜](https://ntgame.com/rankings/) — best indie games, hardest bosses, most anticipated releases
 - [News / 资讯](https://ntgame.com/news/) — daily coverage and weekly recaps
 - [Hardware / 硬件](https://ntgame.com/hardware/) — PC builds, GPU picks, performance guides
