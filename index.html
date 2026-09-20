@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NTGame 新途游戏 — 208 款游戏 · 4,325 篇双语攻略索引</title>
+<meta name="description" content="NTGame 新途游戏 — 208 款游戏、4,325 篇免费中英双语攻略索引，涵盖全流程、Boss 打法、流派构筑、全收集与 PC 性能优化。">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://ntgamecom.github.io/web/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NTGame — 208 Games, 4,325 Bilingual Game Guides">
+<meta property="og:description" content="NTGame 新途游戏 — 208 款游戏、4,325 篇免费中英双语攻略索引，涵盖全流程、Boss 打法、流派构筑、全收集与 PC 性能优化。">
+<meta property="og:url" content="https://ntgamecom.github.io/web/">
+<meta property="og:image" content="https://ntgame.com/images/default-keyart.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" title="NTGame RSS" href="https://ntgame.com/index.xml">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%232563eb%27/%3E%3Ctext x=%2716%27 y=%2721%27 font-family=%27sans-serif%27 font-size=%2713%27 font-weight=%27700%27 fill=%27%23fff%27 text-anchor=%27middle%27%3ENT%3C/text%3E%3C/svg%3E">
+<style>
+*{box-sizing:border-box}
+:root{--blue:#2563eb;--blue-d:#1d4ed8;--ink:#2e3440;--muted:#6b7280;--line:#e5e7eb;
+--soft:#f8f9fa;--acc:#f0f4ff;--max:1120px}
+html{scroll-behavior:smooth;scroll-padding-top:130px}
+body{margin:0;background:#fff;color:var(--ink);line-height:1.6;
+font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
+-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);
+backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:14px;min-height:60px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink)}
+.brand:hover{text-decoration:none}
+.brand svg{display:block;flex:none}
+.brand b{display:block;font-size:16px;line-height:1.15}
+.brand em{display:block;font-style:normal;font-size:11.5px;color:var(--muted)}
+nav.tn{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap;font-size:14px}
+nav.tn a{color:#4b5563}
+nav.tn a:hover{color:var(--blue);text-decoration:none}
+.hero{background:linear-gradient(180deg,#eef3ff 0%,#fff 100%);border-bottom:1px solid var(--line);padding:44px 0 34px}
+.hero h1{margin:0 0 10px;font-size:30px;line-height:1.3;letter-spacing:-.01em}
+.hero h1 span{color:var(--blue)}
+.lede{margin:0;max-width:830px;font-size:15.5px;color:#4b5563}
+.lede code{background:#fff;border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:13px}
+.pills{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 0}
+.pill{background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 14px;min-width:104px}
+.pill b{display:block;font-size:19px;line-height:1.25;color:var(--blue)}
+.pill s{display:block;text-decoration:none;font-size:11.5px;color:var(--muted)}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-block;padding:9px 18px;border-radius:8px;font-weight:600;font-size:14px;
+border:1px solid transparent;transition:.15s}
+.btn.p{background:var(--blue);color:#fff}
+.btn.p:hover{background:var(--blue-d);text-decoration:none}
+.btn.s{background:#fff;border-color:var(--line);color:var(--ink)}
+.btn.s:hover{border-color:#c7d2fe;text-decoration:none}
+.toolbar{position:sticky;top:60px;z-index:50;background:#fff;border-bottom:1px solid var(--line);
+padding:12px 0 10px;box-shadow:0 6px 12px -12px rgba(15,23,42,.35)}
+.srch{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.srch input{flex:1;min-width:220px;padding:9px 13px;border:1px solid var(--line);border-radius:9px;
+font-size:14px;font-family:inherit;color:var(--ink);background:var(--soft)}
+.srch input:focus{outline:2px solid #bfd3ff;outline-offset:-1px;background:#fff}
+.hit{font-size:12.5px;color:var(--muted);white-space:nowrap}
+.hit b{color:var(--blue)}
+#clear{display:none;font-size:12.5px;background:var(--soft);border:1px solid var(--line);
+border-radius:7px;padding:6px 11px;cursor:pointer;font-family:inherit;color:var(--ink)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.chip{font-family:inherit;font-size:12.5px;padding:5px 11px;border-radius:999px;cursor:pointer;
+border:1px solid var(--line);background:#fff;color:#4b5563}
+.chip:hover{border-color:#bfd3ff;color:var(--blue)}
+.chip.on{background:var(--blue);border-color:var(--blue);color:#fff}
+main{padding:30px 0 60px}
+h2.sec{font-size:20px;margin:34px 0 4px;letter-spacing:-.01em;display:flex;align-items:baseline;gap:10px}
+h2.sec:first-of-type{margin-top:6px}
+h2.sec em{font-style:normal;font-size:13px;color:var(--muted);font-weight:500}
+h2.sec .cnt{font-size:12.5px;font-weight:600;color:var(--blue);background:var(--acc);
+border-radius:999px;padding:2px 9px}
+p.sub{margin:4px 0 16px;font-size:13.5px;color:var(--muted)}
+h3.genre{font-size:15.5px;margin:26px 0 8px;padding-left:10px;border-left:3px solid var(--blue);
+display:flex;align-items:baseline;gap:9px;scroll-margin-top:140px}
+h3.genre em{font-style:normal;font-size:11.5px;color:var(--muted);font-weight:500}
+h3.genre u{text-decoration:none;font-size:11.5px;color:#94a3b8;font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(228px,1fr));gap:9px}
+.card{border:1px solid var(--line);border-radius:10px;padding:11px 12px;background:#fff;
+color:inherit;transition:.15s;display:block}
+.card:hover{border-color:#bfd3ff;background:#fbfcff;text-decoration:none;
+box-shadow:0 3px 12px rgba(37,99,235,.09)}
+.card .n{font-weight:600;font-size:13.5px;line-height:1.35}
+.card .z{font-size:12px;color:var(--muted);margin-top:2px;line-height:1.4}
+.card .m{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:9px}
+.card .t{font-size:11px;color:var(--blue);background:var(--acc);border-radius:999px;padding:1px 8px;
+white-space:nowrap}
+.card .p{font-size:11px;color:#94a3b8;white-space:nowrap}
+ol.news{list-style:none;margin:0;padding:0}
+ol.news li{padding:12px 0;border-bottom:1px solid var(--line)}
+ol.news li:last-child{border-bottom:0}
+ol.news a{font-weight:600;font-size:14.5px;line-height:1.4}
+ol.news span{display:block;font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.5}
+ul.hw{list-style:none;margin:0;padding:0;display:grid;
+grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:2px 18px}
+ul.hw li{padding:7px 0;border-bottom:1px solid var(--soft);font-size:13.5px}
+.feat{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.feat a{border:1px solid var(--line);border-radius:10px;padding:14px;color:inherit;background:var(--soft)}
+.feat a:hover{border-color:#bfd3ff;background:#fbfcff;text-decoration:none}
+.feat b{display:block;font-size:14.5px}
+.feat s{display:block;text-decoration:none;font-size:12.5px;color:var(--muted);margin-top:3px}
+.feat i{display:inline-block;font-style:normal;font-size:11.5px;color:var(--blue);margin-top:9px}
+ul.feat-list{list-style:none;padding:0;margin:0;display:grid;
+grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px 22px}
+ul.feat-list li{font-size:13.5px;color:#4b5563}
+ul.feat-list li b{color:var(--ink)}
+#empty{display:none;padding:36px 0;text-align:center;color:var(--muted);font-size:14px}
+footer{border-top:1px solid var(--line);background:var(--soft);padding:28px 0 40px;font-size:13px;color:#4b5563}
+footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+footer h4{margin:0 0 8px;font-size:13px;color:var(--ink)}
+footer ul{list-style:none;margin:0;padding:0}
+footer li{padding:2px 0}
+footer .fine{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);
+font-size:12px;color:#94a3b8;line-height:1.7}
+@media (max-width:640px){
+ .hero h1{font-size:24px}
+ nav.tn{width:100%;margin-left:0;gap:13px;font-size:13px;padding-bottom:2px}
+ .toolbar{top:0;position:static}
+ .grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+ .card .z{display:none}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="https://ntgamecom.github.io/web/"><svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#2563eb"/><text x="16" y="21.5" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#fff">NT</text></svg><span><b>NTGame 新途游戏</b><em>Bilingual Game Guides</em></span></a>
+<nav class="tn">
+<a href="https://ntgame.com/">主站 Home</a>
+<a href="https://ntgame.com/guides/">全部攻略 Guides</a>
+<a href="https://ntgame.com/news/">资讯 News</a>
+<a href="https://ntgame.com/hardware/">硬件 PC Builds</a>
+<a href="https://ntgame.com/rankings/">排行榜 Rankings</a>
+<a href="#index">游戏索引 Index</a>
+</nav></div></header>
+<section class="hero"><div class="wrap">
+<h1>208 款游戏 · 4,325 篇免费双语攻略<br><span>Complete bilingual game guide index</span></h1>
+<p class="lede">本页是 <b>NTGame（新途游戏）</b>的静态索引，托管在 GitHub Pages 上。全部攻略正文都在主站 <code>ntgame.com</code>，涵盖全流程攻略、Boss 打法、流派构筑、全收集、机制详解、PC 性能优化与装机推荐 —— <b>完全免费、无广告、无需登录</b>。All guide content is hosted on ntgame.com; this site is a static index mirror.</p>
+<div class="pills">
+<div class="pill"><b>208</b><s>款游戏 Games</s></div>
+<div class="pill"><b>4,325</b><s>篇攻略 Guides</s></div>
+<div class="pill"><b>21</b><s>个分类 Genres</s></div>
+<div class="pill"><b>0</b><s>广告 / 付费墙</s></div>
+</div>
+<div class="cta">
+<a class="btn p" href="https://ntgame.com/guides/">进入主站 · 全部攻略 →</a>
+<a class="btn s" href="#index">浏览本页游戏索引</a>
+<a class="btn s" href="https://ntgame.com/news/">最新资讯</a>
+</div></div></section>
+<div class="toolbar"><div class="wrap">
+<div class="srch">
+<input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="搜索游戏名 / 拼音 / slug，例如 elden ring、黑神话、gta（按 / 聚焦）" aria-label="搜索游戏">
+<span class="hit">显示 <b id="hitcount">208</b> / 208 款</span>
+<button id="clear" type="button">清除筛选</button>
+</div>
+<div class="chips">
+<button class="chip on" data-g="all" type="button">全部 208</button>
+<button class="chip" data-g="souls-like" type="button">魂系动作 21</button>
+<button class="chip" data-g="action-rpg" type="button">动作角色扮演 47</button>
+<button class="chip" data-g="character-action" type="button">硬核动作 6</button>
+<button class="chip" data-g="action" type="button">动作冒险 3</button>
+<button class="chip" data-g="rpg" type="button">角色扮演 20</button>
+<button class="chip" data-g="open-world" type="button">开放世界 8</button>
+<button class="chip" data-g="shooter" type="button">射击游戏 16</button>
+<button class="chip" data-g="fps" type="button">第一人称射击 1</button>
+<button class="chip" data-g="coop" type="button">合作与沙盒 15</button>
+<button class="chip" data-g="survival" type="button">生存建造 1</button>
+<button class="chip" data-g="strategy" type="button">策略与经营 19</button>
+<button class="chip" data-g="srpg" type="button">战棋 1</button>
+<button class="chip" data-g="MMORPG" type="button">网络游戏 1</button>
+<button class="chip" data-g="roguelike" type="button">肉鸽 10</button>
+<button class="chip" data-g="horror" type="button">恐怖 11</button>
+<button class="chip" data-g="platformer" type="button">平台跳跃 6</button>
+<button class="chip" data-g="fighting" type="button">格斗 4</button>
+<button class="chip" data-g="racing-sports" type="button">竞速与体育 10</button>
+<button class="chip" data-g="flight" type="button">空战 1</button>
+<button class="chip" data-g="mobile" type="button">手游与抽卡 6</button>
+<button class="chip" data-g="综合攻略" type="button">专题 1</button>
+</div></div></div>
+<main><div class="wrap">
+<h2 class="sec">精选攻略 <em>Featured Guides</em></h2>
+<p class="sub">编辑推荐的入口，每款游戏 20 页以上深度内容。Most-covered games on the site.</p>
+<div class="feat">
+<a href="https://ntgame.com/dive-or-die/"><b>Dive or Die</b><s>潜入或死亡：雨之子</s><i>26 篇攻略 · 硬核动作</i></a>
+<a href="https://ntgame.com/blackmythwukong/"><b>Black Myth: Wukong</b><s>黑神话悟空</s><i>51 篇攻略 · 魂系动作</i></a>
+<a href="https://ntgame.com/persona5royal/"><b>Persona 5 Royal</b><s>女神异闻录5皇家版</s><i>32 篇攻略 · 角色扮演</i></a>
+<a href="https://ntgame.com/monsterhunterwilds/"><b>Monster Hunter Wilds</b><s>怪物猎人荒野</s><i>32 篇攻略 · 动作角色扮演</i></a>
+<a href="https://ntgame.com/godofwarragnarok/"><b>God of War Ragnarök</b><s>战神：诸神黄昏</s><i>32 篇攻略 · 动作角色扮演</i></a>
+<a href="https://ntgame.com/marvelrivals/"><b>Marvel Rivals</b><s>漫威争锋</s><i>31 篇攻略 · 手游与抽卡</i></a>
+</div>
+<h2 class="sec" id="index">全部游戏索引 <em>Complete Game Index</em><span class="cnt">208</span></h2>
+<p class="sub">按分类浏览，或在上方搜索框输入游戏名 / 别名 / slug 快速定位。每张卡片都直达主站对应攻略首页。</p>
+<section class="genre" id="g-souls-like">
+<h3 class="genre">魂系动作 <em>Souls-like</em> <u>21 款</u> <span class="cnt">21</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/blackmythwukong/" data-g="souls-like" data-n="black myth: wukong 黑神话悟空 blackmythwukong"><div class="n">Black Myth: Wukong</div><div class="z">黑神话悟空</div><div class="m"><span class="t">魂系动作</span><span class="p">51 页</span></div></a>
+<a class="card" href="https://ntgame.com/bloodborne/" data-g="souls-like" data-n="bloodborne 血源诅咒 bloodborne"><div class="n">Bloodborne</div><div class="z">血源诅咒</div><div class="m"><span class="t">魂系动作</span><span class="p">29 页</span></div></a>
+<a class="card" href="https://ntgame.com/darksouls2/" data-g="souls-like" data-n="dark souls ii: scholar of the first sin 黑暗之魂2：原罪学者 darksouls2"><div class="n">Dark Souls II: Scholar of the First Sin</div><div class="z">黑暗之魂2：原罪学者</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/darksouls3/" data-g="souls-like" data-n="dark souls iii 黑暗之魂3 darksouls3"><div class="n">Dark Souls III</div><div class="z">黑暗之魂3</div><div class="m"><span class="t">魂系动作</span><span class="p">25 页</span></div></a>
+<a class="card" href="https://ntgame.com/darksouls1/" data-g="souls-like" data-n="dark souls: remastered 黑暗之魂重制版 darksouls1"><div class="n">Dark Souls: Remastered</div><div class="z">黑暗之魂重制版</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/demonsouls/" data-g="souls-like" data-n="demon&#x27;s souls 恶魔之魂 demonsouls"><div class="n">Demon&#x27;s Souls</div><div class="z">恶魔之魂</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/eldenring/" data-g="souls-like" data-n="elden ring 艾尔登法环 eldenring"><div class="n">Elden Ring</div><div class="z">艾尔登法环</div><div class="m"><span class="t">魂系动作</span><span class="p">41 页</span></div></a>
+<a class="card" href="https://ntgame.com/shadowoftheerdtree/" data-g="souls-like" data-n="elden ring: shadow of the erdtree 黄金树之影 shadowoftheerdtree"><div class="n">Elden Ring: Shadow of the Erdtree</div><div class="z">黄金树之影</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/liesofp/" data-g="souls-like" data-n="lies of p 匹诺曹的谎言 liesofp"><div class="n">Lies of P</div><div class="z">匹诺曹的谎言</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/mortal-shell-2/" data-g="souls-like" data-n="mortal shell ii 致命躯壳2 mortal-shell-2"><div class="n">Mortal Shell II</div><div class="z">致命躯壳2</div><div class="m"><span class="t">魂系动作</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/nioh2/" data-g="souls-like" data-n="nioh 2 仁王2 nioh2"><div class="n">Nioh 2</div><div class="z">仁王2</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/renwang3/" data-g="souls-like" data-n="nioh 3 仁王3 renwang3"><div class="n">Nioh 3</div><div class="z">仁王3</div><div class="m"><span class="t">魂系动作</span><span class="p">24 页</span></div></a>
+<a class="card" href="https://ntgame.com/phantom-blade-zero/" data-g="souls-like" data-n="phantom blade zero 影之刃零 phantom-blade-zero"><div class="n">Phantom Blade Zero</div><div class="z">影之刃零</div><div class="m"><span class="t">魂系动作</span><span class="p">43 页</span></div></a>
+<a class="card" href="https://ntgame.com/sekiro/" data-g="souls-like" data-n="sekiro: shadows die twice 只狼 sekiro"><div class="n">Sekiro: Shadows Die Twice</div><div class="z">只狼</div><div class="m"><span class="t">魂系动作</span><span class="p">24 页</span></div></a>
+<a class="card" href="https://ntgame.com/sifu/" data-g="souls-like" data-n="sifu 师父 sifu"><div class="n">Sifu</div><div class="z">师父</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/stellarblade/" data-g="souls-like" data-n="stellar blade 剑星 stellarblade"><div class="n">Stellar Blade</div><div class="z">剑星</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/khazan/" data-g="souls-like" data-n="the first berserker: khazan 第一狂战士：卡赞 khazan"><div class="n">The First Berserker: Khazan</div><div class="z">第一狂战士：卡赞</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/wolong2/" data-g="souls-like" data-n="wo long 2 卧龙2：凤火连天 wolong2"><div class="n">Wo Long 2</div><div class="z">卧龙2：凤火连天</div><div class="m"><span class="t">魂系动作</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/wolong/" data-g="souls-like" data-n="wo long: fallen dynasty 卧龙 wolong"><div class="n">Wo Long: Fallen Dynasty</div><div class="z">卧龙</div><div class="m"><span class="t">魂系动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/wuchang/" data-g="souls-like" data-n="wuchang: fallen feathers 明末：渊虚之羽 wuchang"><div class="n">Wuchang: Fallen Feathers</div><div class="z">明末：渊虚之羽</div><div class="m"><span class="t">魂系动作</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/the-relic/" data-g="souls-like" data-n="遗物守卫  the-relic"><div class="n">遗物守卫</div><div class="z">&nbsp;</div><div class="m"><span class="t">魂系动作</span><span class="p">20 页</span></div></a>
+</div></section>
+<section class="genre" id="g-action-rpg">
+<h3 class="genre">动作角色扮演 <em>Action RPG</em> <u>47 款</u> <span class="cnt">47</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/acblackflag/" data-g="action-rpg" data-n="assassin&#x27;s creed iv: black flag 刺客信条4：黑旗重制版 acblackflag"><div class="n">Assassin&#x27;s Creed IV: Black Flag</div><div class="z">刺客信条4：黑旗重制版</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/acodyssey/" data-g="action-rpg" data-n="assassin&#x27;s creed odyssey 刺客信条 奥德赛 acodyssey"><div class="n">Assassin&#x27;s Creed Odyssey</div><div class="z">刺客信条 奥德赛</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/acorigins/" data-g="action-rpg" data-n="assassin&#x27;s creed origins 刺客信条：起源 acorigins"><div class="n">Assassin&#x27;s Creed Origins</div><div class="z">刺客信条：起源</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/acshadows/" data-g="action-rpg" data-n="assassin&#x27;s creed shadows 刺客信条：影 acshadows"><div class="n">Assassin&#x27;s Creed Shadows</div><div class="z">刺客信条：影</div><div class="m"><span class="t">动作角色扮演</span><span class="p">3 页</span></div></a>
+<a class="card" href="https://ntgame.com/acvalhalla/" data-g="action-rpg" data-n="assassin&#x27;s creed valhalla 刺客信条：英灵殿 acvalhalla"><div class="n">Assassin&#x27;s Creed Valhalla</div><div class="z">刺客信条：英灵殿</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/atomfall/" data-g="action-rpg" data-n="atomfall 原子陨落 atomfall"><div class="n">Atomfall</div><div class="z">原子陨落</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/avowed/" data-g="action-rpg" data-n="avowed 天铸者 avowed"><div class="n">Avowed</div><div class="z">天铸者</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/beast-of-reincarnation/" data-g="action-rpg" data-n="beast of reincarnation 转生之兽 beast-of-reincarnation"><div class="n">Beast of Reincarnation</div><div class="z">转生之兽</div><div class="m"><span class="t">动作角色扮演</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/expedition33/" data-g="action-rpg" data-n="clair obscur: expedition 33 33号远征队 expedition33"><div class="n">Clair Obscur: Expedition 33</div><div class="z">33号远征队</div><div class="m"><span class="t">动作角色扮演</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/crimsondesert/" data-g="action-rpg" data-n="crimson desert 红色沙漠 crimsondesert"><div class="n">Crimson Desert</div><div class="z">红色沙漠</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/cyberpunk2077/" data-g="action-rpg" data-n="cyberpunk 2077 赛博朋克2077 cyberpunk2077"><div class="n">Cyberpunk 2077</div><div class="z">赛博朋克2077</div><div class="m"><span class="t">动作角色扮演</span><span class="p">24 页</span></div></a>
+<a class="card" href="https://ntgame.com/dead-island-3/" data-g="action-rpg" data-n="dead island 3 死亡岛3 dead-island-3"><div class="n">Dead Island 3</div><div class="z">死亡岛3</div><div class="m"><span class="t">动作角色扮演</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/deathstranding2/" data-g="action-rpg" data-n="death stranding 2 死亡搁浅2 deathstranding2"><div class="n">Death Stranding 2</div><div class="z">死亡搁浅2</div><div class="m"><span class="t">动作角色扮演</span><span class="p">7 页</span></div></a>
+<a class="card" href="https://ntgame.com/diablo2-resurrected/" data-g="action-rpg" data-n="diablo ii: resurrected 暗黑破坏神2：重制版 diablo2-resurrected"><div class="n">Diablo II: Resurrected</div><div class="z">暗黑破坏神2：重制版</div><div class="m"><span class="t">动作角色扮演</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/diablo4/" data-g="action-rpg" data-n="diablo iv 暗黑破坏神4 diablo4"><div class="n">Diablo IV</div><div class="z">暗黑破坏神4</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/dragonage/" data-g="action-rpg" data-n="dragon age: the veilguard 龙腾世纪：影障守护者 dragonage"><div class="n">Dragon Age: The Veilguard</div><div class="z">龙腾世纪：影障守护者</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/dragonsdogma2/" data-g="action-rpg" data-n="dragon&#x27;s dogma 2 龙之信条2 dragonsdogma2"><div class="n">Dragon&#x27;s Dogma 2</div><div class="z">龙之信条2</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/fallout4/" data-g="action-rpg" data-n="fallout 4 辐射4 fallout4"><div class="n">Fallout 4</div><div class="z">辐射4</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/ff7remake/" data-g="action-rpg" data-n="final fantasy vii remake 最终幻想7 重制版 ff7remake"><div class="n">Final Fantasy VII Remake</div><div class="z">最终幻想7 重制版</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/ff16/" data-g="action-rpg" data-n="final fantasy xvi 最终幻想16 ff16"><div class="n">Final Fantasy XVI</div><div class="z">最终幻想16</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/ghostoftsushima/" data-g="action-rpg" data-n="ghost of tsushima 对马岛之魂 ghostoftsushima"><div class="n">Ghost of Tsushima</div><div class="z">对马岛之魂</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/godofwar2018/" data-g="action-rpg" data-n="god of war (2018) 战神 godofwar2018"><div class="n">God of War (2018)</div><div class="z">战神</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/godofwarragnarok/" data-g="action-rpg" data-n="god of war ragnarök 战神：诸神黄昏 godofwarragnarok"><div class="n">God of War Ragnarök</div><div class="z">战神：诸神黄昏</div><div class="m"><span class="t">动作角色扮演</span><span class="p">32 页</span></div></a>
+<a class="card" href="https://ntgame.com/hogwartslegacy/" data-g="action-rpg" data-n="hogwarts legacy 霍格沃茨之遗 hogwartslegacy"><div class="n">Hogwarts Legacy</div><div class="z">霍格沃茨之遗</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/horizonfw/" data-g="action-rpg" data-n="horizon forbidden west 地平线：西之绝境 horizonfw"><div class="n">Horizon Forbidden West</div><div class="z">地平线：西之绝境</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/horizonzd/" data-g="action-rpg" data-n="horizon zero dawn 地平线：零之曙光 horizonzd"><div class="n">Horizon Zero Dawn</div><div class="z">地平线：零之曙光</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/kcd2/" data-g="action-rpg" data-n="kingdom come: deliverance ii 天国：拯救2 kcd2"><div class="n">Kingdom Come: Deliverance II</div><div class="z">天国：拯救2</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/last-epoch/" data-g="action-rpg" data-n="last epoch 最后纪元 last-epoch"><div class="n">Last Epoch</div><div class="z">最后纪元</div><div class="m"><span class="t">动作角色扮演</span><span class="p">29 页</span></div></a>
+<a class="card" href="https://ntgame.com/spiderman2/" data-g="action-rpg" data-n="marvel&#x27;s spider-man 2 pc  spiderman2"><div class="n">Marvel&#x27;s Spider-Man 2 PC</div><div class="z">&nbsp;</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/marvels-wolverine/" data-g="action-rpg" data-n="marvel&#x27;s wolverine 漫威金刚狼 marvels-wolverine"><div class="n">Marvel&#x27;s Wolverine</div><div class="z">漫威金刚狼</div><div class="m"><span class="t">动作角色扮演</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/masseffect/" data-g="action-rpg" data-n="mass effect legendary edition 质量效应传奇版 masseffect"><div class="n">Mass Effect Legendary Edition</div><div class="z">质量效应传奇版</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/monsterhunterwilds/" data-g="action-rpg" data-n="monster hunter wilds 怪物猎人荒野 monsterhunterwilds"><div class="n">Monster Hunter Wilds</div><div class="z">怪物猎人荒野</div><div class="m"><span class="t">动作角色扮演</span><span class="p">32 页</span></div></a>
+<a class="card" href="https://ntgame.com/monsterhunterworld/" data-g="action-rpg" data-n="monster hunter: world 怪物猎人：世界 monsterhunterworld"><div class="n">Monster Hunter: World</div><div class="z">怪物猎人：世界</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/poe2/" data-g="action-rpg" data-n="path of exile 2 流放之路2 poe2"><div class="n">Path of Exile 2</div><div class="z">流放之路2</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/stalker2/" data-g="action-rpg" data-n="s.t.a.l.k.e.r. 2 潜行者2 stalker2"><div class="n">S.T.A.L.K.E.R. 2</div><div class="z">潜行者2</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/skullandbones/" data-g="action-rpg" data-n="skull and bones 碧海黑帆 skullandbones"><div class="n">Skull and Bones</div><div class="z">碧海黑帆</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/starfield/" data-g="action-rpg" data-n="starfield 星空 starfield"><div class="n">Starfield</div><div class="z">星空</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/state-of-decay-3/" data-g="action-rpg" data-n="state of decay 3 腐烂国度3 state-of-decay-3"><div class="n">State of Decay 3</div><div class="z">腐烂国度3</div><div class="m"><span class="t">动作角色扮演</span><span class="p">4 页</span></div></a>
+<a class="card" href="https://ntgame.com/tainted-grail/" data-g="action-rpg" data-n="tainted grail: the fall of avalon 受玷污的圣杯：亚瓦隆的陨落 tainted-grail"><div class="n">Tainted Grail: The Fall of Avalon</div><div class="z">受玷污的圣杯：亚瓦隆的陨落</div><div class="m"><span class="t">动作角色扮演</span><span class="p">23 页</span></div></a>
+<a class="card" href="https://ntgame.com/bloodofdawnwalker/" data-g="action-rpg" data-n="the blood of dawnwalker 血之黎明行者 bloodofdawnwalker"><div class="n">The Blood of Dawnwalker</div><div class="z">血之黎明行者</div><div class="m"><span class="t">动作角色扮演</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/skyrim/" data-g="action-rpg" data-n="the elder scrolls v: skyrim 上古卷轴5 skyrim"><div class="n">The Elder Scrolls V: Skyrim</div><div class="z">上古卷轴5</div><div class="m"><span class="t">动作角色扮演</span><span class="p">25 页</span></div></a>
+<a class="card" href="https://ntgame.com/tlou1/" data-g="action-rpg" data-n="the last of us part i 最后生还者第一部 tlou1"><div class="n">The Last of Us Part I</div><div class="z">最后生还者第一部</div><div class="m"><span class="t">动作角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/tlou2/" data-g="action-rpg" data-n="the last of us part ii 最后生还者第二部 tlou2"><div class="n">The Last of Us Part II</div><div class="z">最后生还者第二部</div><div class="m"><span class="t">动作角色扮演</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/the-mound/" data-g="action-rpg" data-n="the mound: 奥德赛的宝藏  the-mound"><div class="n">The Mound: 奥德赛的宝藏</div><div class="z">&nbsp;</div><div class="m"><span class="t">动作角色扮演</span><span class="p">23 页</span></div></a>
+<a class="card" href="https://ntgame.com/witcher3/" data-g="action-rpg" data-n="the witcher 3: wild hunt 巫师3 witcher3"><div class="n">The Witcher 3: Wild Hunt</div><div class="z">巫师3</div><div class="m"><span class="t">动作角色扮演</span><span class="p">26 页</span></div></a>
+<a class="card" href="https://ntgame.com/witcher4/" data-g="action-rpg" data-n="the witcher iv 巫师4 witcher4"><div class="n">The Witcher IV</div><div class="z">巫师4</div><div class="m"><span class="t">动作角色扮演</span><span class="p">5 页</span></div></a>
+<a class="card" href="https://ntgame.com/kingdom-come-deliverance-3/" data-g="action-rpg" data-n="天国：救世主3  kingdom-come-deliverance-3"><div class="n">天国：救世主3</div><div class="z">&nbsp;</div><div class="m"><span class="t">动作角色扮演</span><span class="p">4 页</span></div></a>
+</div></section>
+<section class="genre" id="g-character-action">
+<h3 class="genre">硬核动作 <em>Character Action</em> <u>6 款</u> <span class="cnt">6</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/devilmaycry5/" data-g="character-action" data-n="devil may cry 5 鬼泣5 devilmaycry5"><div class="n">Devil May Cry 5</div><div class="z">鬼泣5</div><div class="m"><span class="t">硬核动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/dive-or-die/" data-g="character-action" data-n="dive or die 潜入或死亡：雨之子 dive-or-die"><div class="n">Dive or Die</div><div class="z">潜入或死亡：雨之子</div><div class="m"><span class="t">硬核动作</span><span class="p">26 页</span></div></a>
+<a class="card" href="https://ntgame.com/doometernal/" data-g="character-action" data-n="doom eternal 毁灭战士：永恒 doometernal"><div class="n">DOOM Eternal</div><div class="z">毁灭战士：永恒</div><div class="m"><span class="t">硬核动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/doomdarkages/" data-g="character-action" data-n="doom: the dark ages 毁灭战士：黑暗时代 doomdarkages"><div class="n">DOOM: The Dark Ages</div><div class="z">毁灭战士：黑暗时代</div><div class="m"><span class="t">硬核动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/dustfront/" data-g="character-action" data-n="dust front 尘埃前线 dustfront"><div class="n">Dust Front</div><div class="z">尘埃前线</div><div class="m"><span class="t">硬核动作</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/nordicashes/" data-g="character-action" data-n="nordic ashes 北欧灰烬 nordicashes"><div class="n">Nordic Ashes</div><div class="z">北欧灰烬</div><div class="m"><span class="t">硬核动作</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-action">
+<h3 class="genre">动作冒险 <em>Action &amp; Adventure</em> <u>3 款</u> <span class="cnt">3</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/onimusha/" data-g="action" data-n="onimusha: way of the sword 鬼武者：剑之道 onimusha"><div class="n">Onimusha: Way of the Sword</div><div class="z">鬼武者：剑之道</div><div class="m"><span class="t">动作冒险</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/tides-of-annihilation/" data-g="action" data-n="湮灭之潮（tides of annihilation）  tides-of-annihilation"><div class="n">湮灭之潮（Tides of Annihilation）</div><div class="z">&nbsp;</div><div class="m"><span class="t">动作冒险</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/pathogenic/" data-g="action" data-n="致病本源 / pathogenic  pathogenic"><div class="n">致病本源 / Pathogenic</div><div class="z">&nbsp;</div><div class="m"><span class="t">动作冒险</span><span class="p">20 页</span></div></a>
+</div></section>
+<section class="genre" id="g-rpg">
+<h3 class="genre">角色扮演 <em>RPG &amp; JRPG</em> <u>20 款</u> <span class="cnt">20</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/baldursgate3/" data-g="rpg" data-n="baldur&#x27;s gate 3 博德之门3 baldursgate3"><div class="n">Baldur&#x27;s Gate 3</div><div class="z">博德之门3</div><div class="m"><span class="t">角色扮演</span><span class="p">27 页</span></div></a>
+<a class="card" href="https://ntgame.com/cozy-grove/" data-g="rpg" data-n="cozy grove: camp spirit 温馨小树林：营地精神 cozy-grove"><div class="n">Cozy Grove: Camp Spirit</div><div class="z">温馨小树林：营地精神</div><div class="m"><span class="t">角色扮演</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/davethediver/" data-g="rpg" data-n="dave the diver 潜水员戴夫 davethediver"><div class="n">Dave the Diver</div><div class="z">潜水员戴夫</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/discoelysium/" data-g="rpg" data-n="disco elysium 极乐迪斯科 discoelysium"><div class="n">Disco Elysium</div><div class="z">极乐迪斯科</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/divinity2/" data-g="rpg" data-n="divinity: original sin 2 神界：原罪2 divinity2"><div class="n">Divinity: Original Sin 2</div><div class="z">神界：原罪2</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/dragonsword-awakening/" data-g="rpg" data-n="dragonsword: awakening 龙之剑：觉醒 dragonsword-awakening"><div class="n">DragonSword: Awakening</div><div class="z">龙之剑：觉醒</div><div class="m"><span class="t">角色扮演</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/fable/" data-g="rpg" data-n="fable (2026) 神鬼寓言 fable"><div class="n">Fable (2026)</div><div class="z">神鬼寓言</div><div class="m"><span class="t">角色扮演</span><span class="p">4 页</span></div></a>
+<a class="card" href="https://ntgame.com/ff7rebirth/" data-g="rpg" data-n="final fantasy vii rebirth 最终幻想7重生 ff7rebirth"><div class="n">Final Fantasy VII Rebirth</div><div class="z">最终幻想7重生</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/hollowknight/" data-g="rpg" data-n="hollow knight 空洞骑士 hollowknight"><div class="n">Hollow Knight</div><div class="z">空洞骑士</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/yakuza8/" data-g="rpg" data-n="like a dragon: infinite wealth 如龙8 yakuza8"><div class="n">Like a Dragon: Infinite Wealth</div><div class="z">如龙8</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/lostrecords/" data-g="rpg" data-n="lost records: bloom &amp; rage  lostrecords"><div class="n">Lost Records: Bloom &amp; Rage</div><div class="z">&nbsp;</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/metaphor/" data-g="rpg" data-n="metaphor: refantazio 幻想破灭 metaphor"><div class="n">Metaphor: ReFantazio</div><div class="z">幻想破灭</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/nier-automata/" data-g="rpg" data-n="nier: automata 尼尔：机械纪元 nier-automata"><div class="n">NieR: Automata</div><div class="z">尼尔：机械纪元</div><div class="m"><span class="t">角色扮演</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/nte-neverness/" data-g="rpg" data-n="nte: neverness to everness 永恒至夜 nte-neverness"><div class="n">NTE: Neverness to Everness</div><div class="z">永恒至夜</div><div class="m"><span class="t">角色扮演</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/octopath2/" data-g="rpg" data-n="octopath traveler ii 歧路旅人2 octopath2"><div class="n">Octopath Traveler II</div><div class="z">歧路旅人2</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/persona5royal/" data-g="rpg" data-n="persona 5 royal 女神异闻录5皇家版 persona5royal"><div class="n">Persona 5 Royal</div><div class="z">女神异闻录5皇家版</div><div class="m"><span class="t">角色扮演</span><span class="p">32 页</span></div></a>
+<a class="card" href="https://ntgame.com/stardewvalley/" data-g="rpg" data-n="stardew valley 星露谷物语 stardewvalley"><div class="n">Stardew Valley</div><div class="z">星露谷物语</div><div class="m"><span class="t">角色扮演</span><span class="p">26 页</span></div></a>
+<a class="card" href="https://ntgame.com/trails-in-the-sky-2nd/" data-g="rpg" data-n="the legend of heroes: trails in the sky the 2nd 英雄传说：空之轨迹 the 2nd trails-in-the-sky-2nd"><div class="n">The Legend of Heroes: Trails in the Sky the 2nd</div><div class="z">英雄传说：空之轨迹 the 2nd</div><div class="m"><span class="t">角色扮演</span><span class="p">23 页</span></div></a>
+<a class="card" href="https://ntgame.com/zelda/" data-g="rpg" data-n="the legend of zelda: tears of the kingdom 塞尔达传说王国之泪 zelda"><div class="n">The Legend of Zelda: Tears of the Kingdom</div><div class="z">塞尔达传说王国之泪</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/lagrange/" data-g="rpg" data-n="无尽的拉格朗日  lagrange"><div class="n">无尽的拉格朗日</div><div class="z">&nbsp;</div><div class="m"><span class="t">角色扮演</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-open-world">
+<h3 class="genre">开放世界 <em>Open World</em> <u>8 款</u> <span class="cnt">8</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/eldenringnightreign/" data-g="open-world" data-n="elden ring nightreign 艾尔登法环 黑夜君临 eldenringnightreign"><div class="n">Elden Ring Nightreign</div><div class="z">艾尔登法环 黑夜君临</div><div class="m"><span class="t">开放世界</span><span class="p">7 页</span></div></a>
+<a class="card" href="https://ntgame.com/gta5/" data-g="open-world" data-n="grand theft auto v 侠盗猎车手5 gta5"><div class="n">Grand Theft Auto V</div><div class="z">侠盗猎车手5</div><div class="m"><span class="t">开放世界</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/gta6/" data-g="open-world" data-n="grand theft auto vi 侠盗猎车手6 gta6"><div class="n">Grand Theft Auto VI</div><div class="z">侠盗猎车手6</div><div class="m"><span class="t">开放世界</span><span class="p">26 页</span></div></a>
+<a class="card" href="https://ntgame.com/rdr2/" data-g="open-world" data-n="red dead redemption 2 荒野大镖客2 rdr2"><div class="n">Red Dead Redemption 2</div><div class="z">荒野大镖客2</div><div class="m"><span class="t">开放世界</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/rust/" data-g="open-world" data-n="rust 腐蚀 rust"><div class="n">Rust</div><div class="z">腐蚀</div><div class="m"><span class="t">开放世界</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/southofmidnight/" data-g="open-world" data-n="south of midnight 南方夜幕之下 southofmidnight"><div class="n">South of Midnight</div><div class="z">南方夜幕之下</div><div class="m"><span class="t">开放世界</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/subnautica2/" data-g="open-world" data-n="subnautica 2 深海迷航2 subnautica2"><div class="n">Subnautica 2</div><div class="z">深海迷航2</div><div class="m"><span class="t">开放世界</span><span class="p">7 页</span></div></a>
+<a class="card" href="https://ntgame.com/wherewindsmeet/" data-g="open-world" data-n="where winds meet 风来之身 wherewindsmeet"><div class="n">Where Winds Meet</div><div class="z">风来之身</div><div class="m"><span class="t">开放世界</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-shooter">
+<h3 class="genre">射击游戏 <em>FPS &amp; Shooter</em> <u>16 款</u> <span class="cnt">16</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/007firstlight/" data-g="shooter" data-n="007 first light  007firstlight"><div class="n">007 First Light</div><div class="z">&nbsp;</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/apexlegends/" data-g="shooter" data-n="apex legends apex英雄 apexlegends"><div class="n">Apex Legends</div><div class="z">apex英雄</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/armored-core-7/" data-g="shooter" data-n="armored core 7 装甲核心7 armored-core-7"><div class="n">Armored Core 7</div><div class="z">装甲核心7</div><div class="m"><span class="t">射击游戏</span><span class="p">4 页</span></div></a>
+<a class="card" href="https://ntgame.com/borderlands4/" data-g="shooter" data-n="borderlands 4 无主之地4 borderlands4"><div class="n">Borderlands 4</div><div class="z">无主之地4</div><div class="m"><span class="t">射击游戏</span><span class="p">1 页</span></div></a>
+<a class="card" href="https://ntgame.com/bo6/" data-g="shooter" data-n="call of duty: black ops 6 使命召唤：黑色行动6 bo6"><div class="n">Call of Duty: Black Ops 6</div><div class="z">使命召唤：黑色行动6</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/counterstrike2/" data-g="shooter" data-n="counter-strike 2 反恐精英2 counterstrike2"><div class="n">Counter-Strike 2</div><div class="z">反恐精英2</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/escape-from-tarkov/" data-g="shooter" data-n="escape from tarkov 逃离塔科夫 escape-from-tarkov"><div class="n">Escape from Tarkov</div><div class="z">逃离塔科夫</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/fortnite/" data-g="shooter" data-n="fortnite 堡垒之夜 fortnite"><div class="n">Fortnite</div><div class="z">堡垒之夜</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/overwatch2/" data-g="shooter" data-n="overwatch 2 守望先锋2 overwatch2"><div class="n">Overwatch 2</div><div class="z">守望先锋2</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/pubg/" data-g="shooter" data-n="pubg: battlegrounds 绝地求生 pubg"><div class="n">PUBG: Battlegrounds</div><div class="z">绝地求生</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/teamfortress2/" data-g="shooter" data-n="team fortress 2 军团要塞2 teamfortress2"><div class="n">Team Fortress 2</div><div class="z">军团要塞2</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/valorant/" data-g="shooter" data-n="valorant 无畏契约 valorant"><div class="n">VALORANT</div><div class="z">无畏契约</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/wardogs/" data-g="shooter" data-n="wardogs 战狗 wardogs"><div class="n">WARDOGS</div><div class="z">战狗</div><div class="m"><span class="t">射击游戏</span><span class="p">23 页</span></div></a>
+<a class="card" href="https://ntgame.com/touhou-koumakyou/" data-g="shooter" data-n="东方红魔乡 新典  touhou-koumakyou"><div class="n">东方红魔乡 新典</div><div class="z">&nbsp;</div><div class="m"><span class="t">射击游戏</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/cod6/" data-g="shooter" data-n="使命召唤6  cod6"><div class="n">使命召唤6</div><div class="z">&nbsp;</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/rainbow-six-offensive/" data-g="shooter" data-n="彩虹六号：攻势  rainbow-six-offensive"><div class="n">彩虹六号：攻势</div><div class="z">&nbsp;</div><div class="m"><span class="t">射击游戏</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-fps">
+<h3 class="genre">第一人称射击 <em>FPS</em> <u>1 款</u> <span class="cnt">1</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/halo-campaign-evolved/" data-g="fps" data-n="halo: campaign evolved 光环：进化战役 halo-campaign-evolved"><div class="n">Halo: Campaign Evolved</div><div class="z">光环：进化战役</div><div class="m"><span class="t">第一人称射击</span><span class="p">20 页</span></div></a>
+</div></section>
+<section class="genre" id="g-coop">
+<h3 class="genre">合作与沙盒 <em>Co-op &amp; Sandbox</em> <u>15 款</u> <span class="cnt">15</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/bookshop-sim/" data-g="coop" data-n="bookshop simulator 书店模拟器 — 完整游戏 bookshop-sim"><div class="n">Bookshop Simulator</div><div class="z">书店模拟器 — 完整游戏</div><div class="m"><span class="t">合作与沙盒</span><span class="p">23 页</span></div></a>
+<a class="card" href="https://ntgame.com/go-go-town/" data-g="coop" data-n="go-go town! 前进城镇 go-go-town"><div class="n">Go-Go Town!</div><div class="z">前进城镇</div><div class="m"><span class="t">合作与沙盒</span><span class="p">25 页</span></div></a>
+<a class="card" href="https://ntgame.com/helldivers2/" data-g="coop" data-n="helldivers 2 绝地潜兵2 helldivers2"><div class="n">Helldivers 2</div><div class="z">绝地潜兵2</div><div class="m"><span class="t">合作与沙盒</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/how-to-fish/" data-g="coop" data-n="how to fish 渔力全开 how-to-fish"><div class="n">How to Fish</div><div class="z">渔力全开</div><div class="m"><span class="t">合作与沙盒</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/ittakestwo/" data-g="coop" data-n="it takes two 双人成行 ittakestwo"><div class="n">It Takes Two</div><div class="z">双人成行</div><div class="m"><span class="t">合作与沙盒</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/lethalcompany/" data-g="coop" data-n="lethal company 致命公司 lethalcompany"><div class="n">Lethal Company</div><div class="z">致命公司</div><div class="m"><span class="t">合作与沙盒</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/minecraft/" data-g="coop" data-n="minecraft 我的世界 minecraft"><div class="n">Minecraft</div><div class="z">我的世界</div><div class="m"><span class="t">合作与沙盒</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/palworld/" data-g="coop" data-n="palworld 幻兽帕鲁 palworld"><div class="n">Palworld</div><div class="z">幻兽帕鲁</div><div class="m"><span class="t">合作与沙盒</span><span class="p">26 页</span></div></a>
+<a class="card" href="https://ntgame.com/roblox/" data-g="coop" data-n="roblox 罗布乐思 roblox"><div class="n">Roblox</div><div class="z">罗布乐思</div><div class="m"><span class="t">合作与沙盒</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/satisfactory/" data-g="coop" data-n="satisfactory 幸福工厂 satisfactory"><div class="n">Satisfactory</div><div class="z">幸福工厂</div><div class="m"><span class="t">合作与沙盒</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/splatoon-raiders/" data-g="coop" data-n="splatoon raiders 斯普拉遁突击 splatoon-raiders"><div class="n">Splatoon Raiders</div><div class="z">斯普拉遁突击</div><div class="m"><span class="t">合作与沙盒</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/splitfiction/" data-g="coop" data-n="split fiction 双影奇境 splitfiction"><div class="n">Split Fiction</div><div class="z">双影奇境</div><div class="m"><span class="t">合作与沙盒</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/terraria/" data-g="coop" data-n="terraria 泰拉瑞亚 terraria"><div class="n">Terraria</div><div class="z">泰拉瑞亚</div><div class="m"><span class="t">合作与沙盒</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/valheim/" data-g="coop" data-n="valheim 英灵神殿 valheim"><div class="n">Valheim</div><div class="z">英灵神殿</div><div class="m"><span class="t">合作与沙盒</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/spacemarine2/" data-g="coop" data-n="warhammer 40,000: space marine 2 星际战士2 spacemarine2"><div class="n">Warhammer 40,000: Space Marine 2</div><div class="z">星际战士2</div><div class="m"><span class="t">合作与沙盒</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-survival">
+<h3 class="genre">生存建造 <em>Survival &amp; Crafting</em> <u>1 款</u> <span class="cnt">1</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/grounded2/" data-g="survival" data-n="禁闭求生 2（grounded 2）  grounded2"><div class="n">禁闭求生 2（Grounded 2）</div><div class="z">&nbsp;</div><div class="m"><span class="t">生存建造</span><span class="p">20 页</span></div></a>
+</div></section>
+<section class="genre" id="g-strategy">
+<h3 class="genre">策略与经营 <em>Strategy &amp; 4X</em> <u>19 款</u> <span class="cnt">19</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/citiesskylines2/" data-g="strategy" data-n="cities: skylines ii 城市天际线2 citiesskylines2"><div class="n">Cities: Skylines II</div><div class="z">城市天际线2</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/civ7/" data-g="strategy" data-n="civilization vii 文明7 civ7"><div class="n">Civilization VII</div><div class="z">文明7</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/dota2/" data-g="strategy" data-n="dota 2 刀塔2 dota2"><div class="n">Dota 2</div><div class="z">刀塔2</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/factorio/" data-g="strategy" data-n="factorio 异星工厂 factorio"><div class="n">Factorio</div><div class="z">异星工厂</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/fire-emblem-wanlvqiansi/" data-g="strategy" data-n="fire emblem 火焰纹章：万缕千丝 fire-emblem-wanlvqiansi"><div class="n">Fire Emblem</div><div class="z">火焰纹章：万缕千丝</div><div class="m"><span class="t">策略与经营</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/homm-olden-era/" data-g="strategy" data-n="heroes of might and magic: olden era 魔法门之英雄无敌：上古纪元 homm-olden-era"><div class="n">Heroes of Might and Magic: Olden Era</div><div class="z">魔法门之英雄无敌：上古纪元</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/leagueoflegends/" data-g="strategy" data-n="league of legends 英雄联盟 leagueoflegends"><div class="n">League of Legends</div><div class="z">英雄联盟</div><div class="m"><span class="t">策略与经营</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/stronghold/" data-g="strategy" data-n="stronghold 要塞 stronghold"><div class="n">Stronghold</div><div class="z">要塞</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/strongholdcrusader/" data-g="strategy" data-n="stronghold crusader 要塞：十字军东征 strongholdcrusader"><div class="n">Stronghold Crusader</div><div class="z">要塞：十字军东征</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/attila/" data-g="strategy" data-n="total war: attila 全面战争：阿提拉 attila"><div class="n">Total War: Attila</div><div class="z">全面战争：阿提拉</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/pharaoh/" data-g="strategy" data-n="total war: pharaoh 全面战争：法老 pharaoh"><div class="n">Total War: Pharaoh</div><div class="z">全面战争：法老</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/rome2/" data-g="strategy" data-n="total war: rome ii 全面战争：罗马2 rome2"><div class="n">Total War: Rome II</div><div class="z">全面战争：罗马2</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/shogun2/" data-g="strategy" data-n="total war: shogun 2 全面战争：幕府将军2 shogun2"><div class="n">Total War: Shogun 2</div><div class="z">全面战争：幕府将军2</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/three-kingdoms/" data-g="strategy" data-n="total war: three kingdoms 全面战争：三国 three-kingdoms"><div class="n">Total War: Three Kingdoms</div><div class="z">全面战争：三国</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/totalwarwarhammer3/" data-g="strategy" data-n="total war: warhammer iii 全面战争战锤3 totalwarwarhammer3"><div class="n">Total War: Warhammer III</div><div class="z">全面战争战锤3</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/warcraft3-reforged/" data-g="strategy" data-n="warcraft iii: reforged 魔兽争霸3：重铸版 warcraft3-reforged"><div class="n">Warcraft III: Reforged</div><div class="z">魔兽争霸3：重铸版</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/xcom2/" data-g="strategy" data-n="xcom 2 幽浮2 xcom2"><div class="n">XCOM 2</div><div class="z">幽浮2</div><div class="m"><span class="t">策略与经营</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/afterworld/" data-g="strategy" data-n="后世更序（afterworld）  afterworld"><div class="n">后世更序（Afterworld）</div><div class="z">&nbsp;</div><div class="m"><span class="t">策略与经营</span><span class="p">2 页</span></div></a>
+<a class="card" href="https://ntgame.com/phantom-realms/" data-g="strategy" data-n="幻境传说  phantom-realms"><div class="n">幻境传说</div><div class="z">&nbsp;</div><div class="m"><span class="t">策略与经营</span><span class="p">3 页</span></div></a>
+</div></section>
+<section class="genre" id="g-srpg">
+<h3 class="genre">战棋 <em>Tactical RPG</em> <u>1 款</u> <span class="cnt">1</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/huan-shi-lu/" data-g="srpg" data-n="幻世录：重制版  huan-shi-lu"><div class="n">幻世录：重制版</div><div class="z">&nbsp;</div><div class="m"><span class="t">战棋</span><span class="p">22 页</span></div></a>
+</div></section>
+<section class="genre" id="g-MMORPG">
+<h3 class="genre">网络游戏 <em>MMORPG</em> <u>1 款</u> <span class="cnt">1</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/wow-eternal/" data-g="MMORPG" data-n="魔兽世界：无限  wow-eternal"><div class="n">魔兽世界：无限</div><div class="z">&nbsp;</div><div class="m"><span class="t">网络游戏</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-roguelike">
+<h3 class="genre">肉鸽 <em>Roguelike</em> <u>10 款</u> <span class="cnt">10</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/balatro/" data-g="roguelike" data-n="balatro 小丑牌 balatro"><div class="n">Balatro</div><div class="z">小丑牌</div><div class="m"><span class="t">肉鸽</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/deadcells/" data-g="roguelike" data-n="dead cells 死亡细胞 deadcells"><div class="n">Dead Cells</div><div class="z">死亡细胞</div><div class="m"><span class="t">肉鸽</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/hades/" data-g="roguelike" data-n="hades 哈迪斯 hades"><div class="n">Hades</div><div class="z">哈迪斯</div><div class="m"><span class="t">肉鸽</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/hades2/" data-g="roguelike" data-n="hades ii 哈迪斯2 hades2"><div class="n">Hades II</div><div class="z">哈迪斯2</div><div class="m"><span class="t">肉鸽</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/mistfall-hunter/" data-g="roguelike" data-n="mistfall hunter 雾落猎手 mistfall-hunter"><div class="n">Mistfall Hunter</div><div class="z">雾落猎手</div><div class="m"><span class="t">肉鸽</span><span class="p">19 页</span></div></a>
+<a class="card" href="https://ntgame.com/riskofrain2/" data-g="roguelike" data-n="risk of rain 2 雨中冒险2 riskofrain2"><div class="n">Risk of Rain 2</div><div class="z">雨中冒险2</div><div class="m"><span class="t">肉鸽</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/sts/" data-g="roguelike" data-n="slay the spire 杀戮尖塔 sts"><div class="n">Slay the Spire</div><div class="z">杀戮尖塔</div><div class="m"><span class="t">肉鸽</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/sts2/" data-g="roguelike" data-n="slay the spire 2 杀戮尖塔2 sts2"><div class="n">Slay the Spire 2</div><div class="z">杀戮尖塔2</div><div class="m"><span class="t">肉鸽</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/isaac/" data-g="roguelike" data-n="the binding of isaac 以撒的结合 isaac"><div class="n">The Binding of Isaac</div><div class="z">以撒的结合</div><div class="m"><span class="t">肉鸽</span><span class="p">31 页</span></div></a>
+<a class="card" href="https://ntgame.com/vampiresurvivors/" data-g="roguelike" data-n="vampire survivors 吸血鬼幸存者 vampiresurvivors"><div class="n">Vampire Survivors</div><div class="z">吸血鬼幸存者</div><div class="m"><span class="t">肉鸽</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-horror">
+<h3 class="genre">恐怖 <em>Horror</em> <u>11 款</u> <span class="cnt">11</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/alanwake2/" data-g="horror" data-n="alan wake 2 艾伦韦克2 alanwake2"><div class="n">Alan Wake 2</div><div class="z">艾伦韦克2</div><div class="m"><span class="t">恐怖</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/alan-wake-3/" data-g="horror" data-n="alan wake 3 艾伦韦克3 alan-wake-3"><div class="n">Alan Wake 3</div><div class="z">艾伦韦克3</div><div class="m"><span class="t">恐怖</span><span class="p">4 页</span></div></a>
+<a class="card" href="https://ntgame.com/control/" data-g="horror" data-n="control 控制 control"><div class="n">Control</div><div class="z">控制</div><div class="m"><span class="t">恐怖</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/deadbydaylight/" data-g="horror" data-n="dead by daylight 黎明杀机 deadbydaylight"><div class="n">Dead by Daylight</div><div class="z">黎明杀机</div><div class="m"><span class="t">恐怖</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/deadspace/" data-g="horror" data-n="dead space 死亡空间 deadspace"><div class="n">Dead Space</div><div class="z">死亡空间</div><div class="m"><span class="t">恐怖</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/re2remake/" data-g="horror" data-n="resident evil 2 remake 生化危机2重制版 re2remake"><div class="n">Resident Evil 2 Remake</div><div class="z">生化危机2重制版</div><div class="m"><span class="t">恐怖</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/re4/" data-g="horror" data-n="resident evil 4 remake 生化危机4重制版 re4"><div class="n">Resident Evil 4 Remake</div><div class="z">生化危机4重制版</div><div class="m"><span class="t">恐怖</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/residentevilrequiem/" data-g="horror" data-n="resident evil requiem 生化危机：安魂曲 residentevilrequiem"><div class="n">Resident Evil Requiem</div><div class="z">生化危机：安魂曲</div><div class="m"><span class="t">恐怖</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/re8/" data-g="horror" data-n="resident evil village 生化危机 村庄 re8"><div class="n">Resident Evil Village</div><div class="z">生化危机 村庄</div><div class="m"><span class="t">恐怖</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/shift-at-midnight/" data-g="horror" data-n="shift at midnight 午夜换班 shift-at-midnight"><div class="n">Shift at Midnight</div><div class="z">午夜换班</div><div class="m"><span class="t">恐怖</span><span class="p">1 页</span></div></a>
+<a class="card" href="https://ntgame.com/silent-hill-2-remake/" data-g="horror" data-n="silent hill 2 remake 寂静岭2 重制版 silent-hill-2-remake"><div class="n">Silent Hill 2 Remake</div><div class="z">寂静岭2 重制版</div><div class="m"><span class="t">恐怖</span><span class="p">24 页</span></div></a>
+</div></section>
+<section class="genre" id="g-platformer">
+<h3 class="genre">平台跳跃 <em>Platformer</em> <u>6 款</u> <span class="cnt">6</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/celeste/" data-g="platformer" data-n="celeste 蔚蓝 celeste"><div class="n">Celeste</div><div class="z">蔚蓝</div><div class="m"><span class="t">平台跳跃</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/cuphead/" data-g="platformer" data-n="cuphead 茶杯头 cuphead"><div class="n">Cuphead</div><div class="z">茶杯头</div><div class="m"><span class="t">平台跳跃</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/ori2/" data-g="platformer" data-n="ori and the will of the wisps 精灵与萤火意志 ori2"><div class="n">Ori and the Will of the Wisps</div><div class="z">精灵与萤火意志</div><div class="m"><span class="t">平台跳跃</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/rhythm-heaven/" data-g="platformer" data-n="rhythm heaven 节奏天国 rhythm-heaven"><div class="n">Rhythm Heaven</div><div class="z">节奏天国</div><div class="m"><span class="t">平台跳跃</span><span class="p">22 页</span></div></a>
+<a class="card" href="https://ntgame.com/mariowonder/" data-g="platformer" data-n="super mario bros. wonder 超级马力欧兄弟惊奇 mariowonder"><div class="n">Super Mario Bros. Wonder</div><div class="z">超级马力欧兄弟惊奇</div><div class="m"><span class="t">平台跳跃</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/mario-odyssey/" data-g="platformer" data-n="super mario odyssey 超级马力欧奥德赛 mario-odyssey"><div class="n">Super Mario Odyssey</div><div class="z">超级马力欧奥德赛</div><div class="m"><span class="t">平台跳跃</span><span class="p">20 页</span></div></a>
+</div></section>
+<section class="genre" id="g-fighting">
+<h3 class="genre">格斗 <em>Fighting</em> <u>4 款</u> <span class="cnt">4</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/avatar-legends/" data-g="fighting" data-n="avatar legends 降世神通格斗 avatar-legends"><div class="n">Avatar Legends</div><div class="z">降世神通格斗</div><div class="m"><span class="t">格斗</span><span class="p">23 页</span></div></a>
+<a class="card" href="https://ntgame.com/mortalkombat1/" data-g="fighting" data-n="mortal kombat 1 真人快打1 mortalkombat1"><div class="n">Mortal Kombat 1</div><div class="z">真人快打1</div><div class="m"><span class="t">格斗</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/sf6/" data-g="fighting" data-n="street fighter 6 街霸6 sf6"><div class="n">Street Fighter 6</div><div class="z">街霸6</div><div class="m"><span class="t">格斗</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/tekken8/" data-g="fighting" data-n="tekken 8 铁拳8 tekken8"><div class="n">Tekken 8</div><div class="z">铁拳8</div><div class="m"><span class="t">格斗</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-racing-sports">
+<h3 class="genre">竞速与体育 <em>Racing &amp; Sports</em> <u>10 款</u> <span class="cnt">10</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/eafc26/" data-g="racing-sports" data-n="ea sports fc 26  eafc26"><div class="n">EA SPORTS FC 26</div><div class="z">&nbsp;</div><div class="m"><span class="t">竞速与体育</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/eafc27/" data-g="racing-sports" data-n="ea sports fc 27  eafc27"><div class="n">EA SPORTS FC 27</div><div class="z">&nbsp;</div><div class="m"><span class="t">竞速与体育</span><span class="p">33 页</span></div></a>
+<a class="card" href="https://ntgame.com/efootball2026/" data-g="racing-sports" data-n="efootball 2026  efootball2026"><div class="n">eFootball 2026</div><div class="z">&nbsp;</div><div class="m"><span class="t">竞速与体育</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/f1-25/" data-g="racing-sports" data-n="f1 25  f1-25"><div class="n">F1 25</div><div class="z">&nbsp;</div><div class="m"><span class="t">竞速与体育</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/fm2026/" data-g="racing-sports" data-n="football manager 2026  fm2026"><div class="n">Football Manager 2026</div><div class="z">&nbsp;</div><div class="m"><span class="t">竞速与体育</span><span class="p">44 页</span></div></a>
+<a class="card" href="https://ntgame.com/forzahorizon5/" data-g="racing-sports" data-n="forza horizon 5 极限竞速地平线5 forzahorizon5"><div class="n">Forza Horizon 5</div><div class="z">极限竞速地平线5</div><div class="m"><span class="t">竞速与体育</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/forzahorizon6/" data-g="racing-sports" data-n="forza horizon 6 极限竞速地平线6 forzahorizon6"><div class="n">Forza Horizon 6</div><div class="z">极限竞速地平线6</div><div class="m"><span class="t">竞速与体育</span><span class="p">7 页</span></div></a>
+<a class="card" href="https://ntgame.com/mariokart8/" data-g="racing-sports" data-n="mario kart 8 deluxe 马力欧卡丁车8豪华版 mariokart8"><div class="n">Mario Kart 8 Deluxe</div><div class="z">马力欧卡丁车8豪华版</div><div class="m"><span class="t">竞速与体育</span><span class="p">20 页</span></div></a>
+<a class="card" href="https://ntgame.com/nba2k25/" data-g="racing-sports" data-n="nba 2k25  nba2k25"><div class="n">NBA 2K25</div><div class="z">&nbsp;</div><div class="m"><span class="t">竞速与体育</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/ufl/" data-g="racing-sports" data-n="ufl 足球  ufl"><div class="n">UFL 足球</div><div class="z">&nbsp;</div><div class="m"><span class="t">竞速与体育</span><span class="p">20 页</span></div></a>
+</div></section>
+<section class="genre" id="g-flight">
+<h3 class="genre">空战 <em>Flight</em> <u>1 款</u> <span class="cnt">1</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/ace-combat-8-hope-wings/" data-g="flight" data-n="ace combat 8: hope wings 皇牌空战8：希孚之翼 ace-combat-8-hope-wings"><div class="n">Ace Combat 8: Hope Wings</div><div class="z">皇牌空战8：希孚之翼</div><div class="m"><span class="t">空战</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-mobile">
+<h3 class="genre">手游与抽卡 <em>Mobile &amp; Gacha</em> <u>6 款</u> <span class="cnt">6</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/genshin/" data-g="mobile" data-n="genshin impact 原神 genshin"><div class="n">Genshin Impact</div><div class="z">原神</div><div class="m"><span class="t">手游与抽卡</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/hsr/" data-g="mobile" data-n="honkai: star rail 崩坏：星穹铁道 hsr"><div class="n">Honkai: Star Rail</div><div class="z">崩坏：星穹铁道</div><div class="m"><span class="t">手游与抽卡</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/marvelrivals/" data-g="mobile" data-n="marvel rivals 漫威争锋 marvelrivals"><div class="n">Marvel Rivals</div><div class="z">漫威争锋</div><div class="m"><span class="t">手游与抽卡</span><span class="p">31 页</span></div></a>
+<a class="card" href="https://ntgame.com/wutheringwaves/" data-g="mobile" data-n="wuthering waves 鸣潮 wutheringwaves"><div class="n">Wuthering Waves</div><div class="z">鸣潮</div><div class="m"><span class="t">手游与抽卡</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/zenlesszonezero/" data-g="mobile" data-n="zenless zone zero 绝区零 zenlesszonezero"><div class="n">Zenless Zone Zero</div><div class="z">绝区零</div><div class="m"><span class="t">手游与抽卡</span><span class="p">21 页</span></div></a>
+<a class="card" href="https://ntgame.com/zzsj/" data-g="mobile" data-n="主宰世界  zzsj"><div class="n">主宰世界</div><div class="z">&nbsp;</div><div class="m"><span class="t">手游与抽卡</span><span class="p">21 页</span></div></a>
+</div></section>
+<section class="genre" id="g-综合攻略">
+<h3 class="genre">专题 <em>Special</em> <u>1 款</u> <span class="cnt">1</span></h3>
+<div class="grid">
+<a class="card" href="https://ntgame.com/gta6-leak/" data-g="综合攻略" data-n="gta 6 泄露全复盘专题  gta6-leak"><div class="n">GTA 6 泄露全复盘专题</div><div class="z">&nbsp;</div><div class="m"><span class="t">专题</span><span class="p">1 页</span></div></a>
+</div></section>
+<div id="empty">没有匹配的游戏，换个关键词试试 / No match — try another keyword.</div>
+<h2 class="sec">最新资讯与深度解析 <em>Latest News &amp; Analysis</em></h2>
+<p class="sub">游戏圈动态、发售前瞻与产业分析，每日更新 · <a href="https://ntgame.com/news/">全部资讯 →</a></p>
+<ol class="news">
+<li><a href="https://ntgame.com/news/openai-runes-forged-removed/">AI-made game pulled after Jagex takedown notice — where the line of AI copyright sits</a><span>OpenAI 员工用 AI 仿作《符文传说》遭 Jagex 侵权通知后下架：AI 游戏版权与原创性边界</span></li>
+<li><a href="https://ntgame.com/news/ai-game-production-magiclomix/">Tencent MagicLomix + Unreal MCP: the AI game-production inflection point</a><span>「AI 游戏生产落地」产业拐点：腾讯 MagicLomix + 虚幻 MCP，对中小团队意味着什么？</span></li>
+<li><a href="https://ntgame.com/news/onimusha-resurgence/">Onimusha: Way of the Sword hits 1M on day one — why revival action games are back</a><span>鬼武者：剑之道首日破百万——复活系动作游戏为何集体翻红？</span></li>
+<li><a href="https://ntgame.com/news/physint-xbox/">Kojima&#x27;s PHYSINT leaves Sony for Xbox — and Sony&#x27;s 2026 reputation crisis</a><span>小岛秀夫《PHYSINT》被索尼砍掉转投 Xbox</span></li>
+<li><a href="https://ntgame.com/news/xbox-fallout-restructure/">Xbox restructure: Obsidian joins a new Fallout, Avowed sequel cancelled, 25% layoffs</a><span>Xbox 重组：黑曜石参与新《辐射》、取消《宣誓》续作、裁员四分之一</span></li>
+<li><a href="https://ntgame.com/news/gta6-respawn-mechanic/">GTA 6 rewrites the respawn rule: no more hospital / police-station resets</a><span>《GTA6》重生机制大改：推翻「阵亡进医院、被捕进警局」的系列铁律</span></li>
+<li><a href="https://ntgame.com/news/metroid-ravenous-preview/">Metroid: Ravenous announced — Samus and the melee revolution</a><span>《银河战士：Ravenous》官宣全面前瞻——萨姆斯的「近战革命」</span></li>
+<li><a href="https://ntgame.com/news/apple-a20pro-endside-ai/">Apple A20 Pro (2nm) + on-device AI: the next wave for AI-driven mobile gaming</a><span>苹果 A20 Pro 2nm + 「智能个人中心」：端侧 AI 与 AI+移动游戏的下一个风口？</span></li>
+<li><a href="https://ntgame.com/news/capcom-steam-revenue-2026/">Capcom earned $617M on Steam in 2026 — a &quot;maximize the content library&quot; case study</a><span>Capcom 2026 Steam 创收 6.17 亿美元结构解构——「内容库最大化」战略样本</span></li>
+<li><a href="https://ntgame.com/news/blackmythwukong-2nd-anniversary/">Black Myth: Wukong — two years on, from art miracle to cultural phenomenon</a><span>黑神话：悟空发售两周年纪念回顾——从美术奇迹到文化现象</span></li>
+</ol>
+<h2 class="sec">硬件与性能优化 <em>PC Builds &amp; Performance</em><span class="cnt">22</span></h2>
+<p class="sub">装机方案、显卡选择、DLSS / FSR 实测与帧数优化 · <a href="https://ntgame.com/hardware/">硬件专栏 →</a></p>
+<ul class="hw">
+<li><a href="https://ntgame.com/hardware/late-summer-2026-pc-build/">2026 年夏末高性价比游戏主机配置推荐</a></li>
+<li><a href="https://ntgame.com/hardware/budget-gaming-pc-2026/">预算装机 2026 / Budget Gaming PC Build</a></li>
+<li><a href="https://ntgame.com/hardware/steam-deck-compatibility-2026/">Steam Deck 游戏适配榜 2026：200 款热门游戏兼容性实测</a></li>
+<li><a href="https://ntgame.com/hardware/portable-gaming-devices/">便携游戏设备对比 2026 / Handheld devices compared</a></li>
+<li><a href="https://ntgame.com/hardware/gaming-peripherals-2026/">游戏外设推荐 2026 / Gaming peripherals</a></li>
+<li><a href="https://ntgame.com/hardware/blackmythwukong-pc-build/">Black Myth: Wukong 最佳 PC 构筑</a></li>
+<li><a href="https://ntgame.com/hardware/eldenring-nightreign-optimization/">Elden Ring Nightreign 帧数优化与最佳画质设置</a></li>
+<li><a href="https://ntgame.com/hardware/silent-hill-2-remake-optimization/">Silent Hill 2 Remake PC 优化指南</a></li>
+<li><a href="https://ntgame.com/hardware/civ7-best-pc-build/">Civilization VII 最佳 PC 配置</a></li>
+<li><a href="https://ntgame.com/hardware/eafc26-best-gpu/">EAFC 26 显卡推荐 / Best GPU for EAFC 26</a></li>
+<li><a href="https://ntgame.com/hardware/alan-wake-3-pc-build/">心灵杀手 3 配置指南</a></li>
+<li><a href="https://ntgame.com/hardware/armored-core-7-pc-build/">装甲核心 7 最佳 PC 配置</a></li>
+<li><a href="https://ntgame.com/hardware/gears-of-war-e-day-pc-build/">战争机器：事变日 PC 配置深度解析</a></li>
+<li><a href="https://ntgame.com/hardware/dlss-5-preview/">DLSS 5 前瞻分析：神经渲染时代的正式大门</a></li>
+<li><a href="https://ntgame.com/hardware/dlss5-neural-rendering-benchmark/">DLSS 5 神经渲染性能暴跌实测</a></li>
+<li><a href="https://ntgame.com/hardware/dlss5-rtx40-series/">DLSS 5 官方下放 RTX 40 系全解析</a></li>
+<li><a href="https://ntgame.com/hardware/dlss-4.5-benchmark/">DLSS 4.5 实测对比：Transformer 二代画质</a></li>
+<li><a href="https://ntgame.com/hardware/amd-fsr5-neural-rendering/">AMD FSR 5 神经渲染技术深度解析</a></li>
+<li><a href="https://ntgame.com/hardware/dlss5-apple-silicon-port/">DLSS 5 被移植到 Apple Silicon：跨架构拆解</a></li>
+<li><a href="https://ntgame.com/hardware/dlss5-host-penetration/">DLSS 5 向主机渗透：固定硬件冲击</a></li>
+<li><a href="https://ntgame.com/hardware/amd-bc250-fsr4-mining-linux/">AMD BC-250 矿卡魔改跑 FSR 4</a></li>
+<li><a href="https://ntgame.com/hardware/ai-gpu-rtx-pro-5500-domestic-c700/">RTX PRO 5500 与国产沐曦曦云 C700 对标 H100</a></li>
+</ul>
+<h2 class="sec">站点导航 <em>Site Structure</em></h2>
+<ul class="feat-list">
+<li><a href="https://ntgame.com/guides/">全部攻略索引 All guides — 按类型浏览全部 208 款游戏</a></li>
+<li><a href="https://ntgame.com/rankings/">排行榜 Rankings — 最佳独立游戏、最难 Boss、最受期待新作</a></li>
+<li><a href="https://ntgame.com/news/">资讯 News — 每日更新与每周回顾</a></li>
+<li><a href="https://ntgame.com/hardware/">硬件 Hardware — 装机、显卡与性能优化</a></li>
+<li><a href="https://ntgame.com/sitemap.xml">站点地图 Sitemap</a></li>
+<li><a href="https://ntgame.com/index.xml">RSS 订阅 Feed</a></li>
+</ul>
+</div></main>
+<footer><div class="wrap">
+<div class="cols">
+<div><h4>NTGame 新途游戏</h4><ul><li><a href="https://ntgame.com/">ntgame.com</a></li><li><a href="https://ntgame.com/guides/">全部攻略</a></li><li><a href="https://ntgame.com/news/">最新资讯</a></li><li><a href="https://ntgame.com/rankings/">排行榜</a></li><li><a href="https://ntgame.com/hardware/">硬件与性能</a></li></ul></div>
+<div><h4>订阅 Subscribe</h4><ul><li><a href="https://ntgame.com/index.xml">RSS Feed</a></li><li><a href="https://ntgame.com/sitemap.xml">Sitemap</a></li></ul></div>
+<div><h4>本页 About this page</h4><ul><li>GitHub Pages 静态索引</li><li><a href="https://github.com/ntgamecom/web">GitHub 仓库</a></li><li><a href="https://github.com/ntgamecom/web/issues">反馈 / Issues</a></li></ul></div>
+</div>
+<div class="fine">索引数据取自主站实时内容：<b>208 款游戏 / 4,325 篇攻略</b>。本页仅为链接索引，全部攻略正文、图片与更新均托管于 ntgame.com。所有游戏名称、素材与商标归各自权利人所有。<br>&copy; 2026 NTGame · <a href="https://ntgame.com">ntgame.com</a></div>
+</div></footer>
+<script>
+(function(){
+  var qEl=document.getElementById('q'),
+      out=document.getElementById('hitcount'),
+      clr=document.getElementById('clear'),
+      emp=document.getElementById('empty'),
+      cards=[].slice.call(document.querySelectorAll('.card')),
+      secs=[].slice.call(document.querySelectorAll('section.genre')),
+      chips=[].slice.call(document.querySelectorAll('.chip')),
+      total=cards.length, active='all', base={};
+
+  secs.forEach(function(s){
+    var c=s.querySelector('h3.genre .cnt');
+    if(c){ base[s.id]=c.textContent; }
+  });
+
+  function apply(){
+    var terms=qEl.value.toLowerCase().split(/\s+/).filter(Boolean), shown=0, per={};
+    cards.forEach(function(c){
+      var okG=(active==='all'||c.getAttribute('data-g')===active),
+          hay=c.getAttribute('data-n')||'',
+          okQ=terms.every(function(t){return hay.indexOf(t)>=0;}),
+          vis=okG&&okQ;
+      c.style.display=vis?'':'none';
+      if(vis){ shown++; var s=c.parentNode; while(s&&s.tagName!=='SECTION'){s=s.parentNode;}
+               if(s){ per[s.id]=(per[s.id]||0)+1; } }
+    });
+    secs.forEach(function(s){
+      var n=per[s.id]||0, c=s.querySelector('h3.genre .cnt');
+      s.style.display=n?'':'none';
+      if(c&&base[s.id]){ c.textContent=n?n:base[s.id]; }
+    });
+    out.textContent=shown;
+    emp.style.display=shown?'none':'block';
+    clr.style.display=(qEl.value||active!=='all')?'inline-block':'none';
+  }
+
+  chips.forEach(function(ch){
+    ch.addEventListener('click',function(){
+      active=ch.getAttribute('data-g');
+      chips.forEach(function(o){o.classList.toggle('on',o===ch);});
+      if(active!=='all'){ var t=document.getElementById('g-'+active);
+        if(t){ t.style.display=''; t.scrollIntoView({block:'start'}); } }
+      apply();
+    });
+  });
+  clr.addEventListener('click',function(){ qEl.value=''; active='all';
+    chips.forEach(function(o){o.classList.toggle('on',o.getAttribute('data-g')==='all');}); apply(); });
+  qEl.addEventListener('input',apply);
+  document.addEventListener('keydown',function(e){
+    if(e.key==='/'&&document.activeElement!==qEl){ e.preventDefault(); qEl.focus(); qEl.select(); }
+    if(e.key==='Escape'&&document.activeElement===qEl){ qEl.value=''; apply(); }
+  });
+  apply();
+})();
+</script>
+</body>
+</html>

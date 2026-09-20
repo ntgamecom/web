@@ -1,6 +1,6 @@
 # NTGame — Bilingual Game Guides / 新途游戏 · 双语游戏攻略
 
-[![Website](https://img.shields.io/badge/Website-ntgame.com-blue)](https://ntgame.com) [![Games](https://img.shields.io/badge/Games-208-brightgreen)](https://ntgame.com/guides/) [![Guide Pages](https://img.shields.io/badge/Guide%20Pages-4325-orange)](https://ntgame.com/sitemap.xml) [![Bilingual](https://img.shields.io/badge/Bilingual-%E4%B8%AD%E6%96%87%20%7C%20English-success)](https://ntgame.com) [![Updated](https://img.shields.io/badge/Updated-2026--09-lightgrey)](https://ntgame.com/index.xml)
+[![Website](https://img.shields.io/badge/Website-ntgame.com-blue)](https://ntgame.com) [![Games](https://img.shields.io/badge/Games-208-brightgreen)](https://ntgame.com/guides/) [![Guide Pages](https://img.shields.io/badge/Guide%20Pages-4325-orange)](https://ntgame.com/sitemap.xml) [![Bilingual](https://img.shields.io/badge/Bilingual-%E4%B8%AD%E6%96%87%20%7C%20English-success)](https://ntgame.com) [![Updated](https://img.shields.io/badge/Updated-2026--09-lightgrey)](https://ntgame.com/index.xml) [![Interactive Index](https://img.shields.io/badge/Interactive%20Index-GitHub%20Pages-2ea44f)](https://ntgamecom.github.io/web/)
 
 **NTGame (新途游戏 / New Tutorial Games)** publishes free bilingual (Chinese / English) game guides for **208 games** — **4,325 in-depth guide pages** covering full walkthroughs, boss fights, builds, collectibles, mechanics, PC performance tuning and hardware recommendations. **No paywall, no ads.**
 
@@ -9,6 +9,11 @@
 | Website | All Guides | Rankings | News | RSS |
 |---|---|---|---|---|
 | [https://ntgame.com](https://ntgame.com) | [https://ntgame.com/guides/](https://ntgame.com/guides/) | [https://ntgame.com/rankings/](https://ntgame.com/rankings/) | [https://ntgame.com/news/](https://ntgame.com/news/) | [https://ntgame.com/index.xml](https://ntgame.com/index.xml) |
+
+[![Interactive Index](https://img.shields.io/badge/Interactive%20Index-GitHub%20Pages-2ea44f)](https://ntgamecom.github.io/web/)
+**🔎 可搜索的交互式游戏索引（按分类筛选 / 实时搜索）：<https://ntgamecom.github.io/web/>**
+
+An interactive, searchable mirror of the index below is published on GitHub Pages. 全部攻略正文仍在 ntgame.com。
 
 ## Featured Guides / 精选攻略
 
